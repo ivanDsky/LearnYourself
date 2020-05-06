@@ -1,18 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+[CreateAssetMenu(menuName = "Create question",fileName = "New question",order = 51)]
+public class QuestionObject : SerializedScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public new string name;
+    public string question;
+    public bool haveVariants = true;
+    [ShowIf("@this.haveVariants")]
+    public List<string> answers;
+    [ShowIf("@!this.haveVariants")]
+    public string answerNoVariants;
 }
