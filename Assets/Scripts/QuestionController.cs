@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,48 +16,26 @@ namespace DefaultNamespace
         public List<QuestionObject> questions;
         public Transform answerGroup;
         public TextMeshProUGUI questionText;
-        public float delayBetweenQuestions = .5f;
 
         private void Start()
         {
-            InitQuestion(GetRandomQuestion(true));
+            questions = Resources.LoadAll<QuestionObject>("/").ToList();//TODO customize folder to load
+            InitQuestion(RandomFunctions.GetRandomObject(ref questions,true));
         }
 
         public void InitQuestion(QuestionObject question)
         {
+            //TODO less get component
             questionText.text = question.questionText;
             buttonController.PrepareButtons(question.answers.Count);
+            RandomFunctions.Shuffle(ref question.answers);
             for (int i = 0; i < question.answers.Count; ++i)
             {
                 Transform button = answerGroup.GetChild(i);
                 button.GetComponentInChildren<TextMeshProUGUI>().text = question.answers[i].text;
                 button.GetComponentInChildren<Image>().color = Color.white;
-                var i1 = i;
-                button.GetComponentInChildren<Button>().onClick.AddListener(delegate
-                {
-                    EndAnswer(button.GetComponentInChildren<Image>(),question.answers[i1].isCorrect);
-                });
+                button.GetComponentInChildren<ButtonActions>().isCorrect = question.answers[i].isCorrect;
             }
-        }
-
-        public QuestionObject GetRandomQuestion(bool remove = false)
-        {
-            int id = Random.Range(0, questions.Count);
-            QuestionObject ret = questions[id];
-            if (remove) questions.RemoveAt(id);
-            return ret;
-        }
-
-        public void EndAnswer(Image image, bool isCorrect)
-        {
-            image.color = isCorrect ? Color.green : Color.red;
-            StartCoroutine(EndAnswerCoroutine());
-        }
-
-        public IEnumerator EndAnswerCoroutine()
-        {
-            yield return new WaitForSeconds(delayBetweenQuestions);
-            if (questions.Count > 0) InitQuestion(GetRandomQuestion(true));
         }
     }
 }

@@ -10,5 +10,11 @@ namespace DefaultNamespace
         public new string name;
         public string questionText;
         public List<Question> answers;
+
+        public QuestionObject(string text, List<Question> questions)
+        {
+            questionText = text;
+            answers = questions;
+        }
     }
 }
