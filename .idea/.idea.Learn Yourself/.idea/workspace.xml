@@ -1,39 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
+    <expand />
+    <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4892f90-1926-4b10-9639-6537059318dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerListener.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerListener.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerTypes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerTypes.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/IAnswerType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/IAnswerType.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionListener.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionListener.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/AudioQuestion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/AudioQuestion.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/IQuestionTypes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/IQuestionTypes.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/QuestionType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/QuestionType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/TextQuestion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/TextQuestion.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerTypes.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerType.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +44,16 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05F2AC9C-8847-4269-9276-5A22EF6D94CA/b5/80e8855b/Debug.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestionTypes/IQuestionTypes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestionTypes/QuestionType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestionTypes/TextQuestion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestionTypes/AudioQuestion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestionController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestionListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/IAnswerType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerTypes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -70,9 +70,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/IAnswerType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ButtonSceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/QuestionType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/AudioQuestion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/IQuestionTypes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/TextQuestion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/QuestionListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/QuestionController.cs" />
       </list>
     </option>
   </component>
@@ -174,10 +180,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="303" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1589038645907" />
-    <state x="573" y="115" key="RiderGenerateDialog" timestamp="1589034822859">
+    <state x="573" y="115" key="RiderGenerateDialog" timestamp="1589043247497">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="573" y="115" key="RiderGenerateDialog/0.0.1600.860@0.0.1600.860" timestamp="1589034822859" />
+    <state x="573" y="115" key="RiderGenerateDialog/0.0.1600.860@0.0.1600.860" timestamp="1589043247497" />
     <state x="609" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589034248832">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

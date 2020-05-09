@@ -5,17 +5,16 @@ using UnityEngine;
 
 public class AnswerController : MonoBehaviour
 {
-    public IAnswerType answer;
     private event Action<IAnswerType> AnswerUpdate;
     public IAnswerType[] answers = {new SimpleAnswer(), new InputAnswer(), new SimpleAnswer()};
     public int answerID;
+    
     //TODO temporary
     [Button]
     public void Next()
     {
         if (answerID >= answers.Length) return;
-        answer = answers[answerID++];
-        AnswerUpdate?.Invoke(answer);
+        OnAnswerUpdate(answers[answerID++]);
     }
     public void AddListener(Action<IAnswerType> action)
     {
@@ -25,5 +24,10 @@ public class AnswerController : MonoBehaviour
     public void RemoveListener(Action<IAnswerType> action)
     {
         AnswerUpdate -= action;
+    }
+
+    public void OnAnswerUpdate(IAnswerType obj)
+    {
+        AnswerUpdate?.Invoke(obj);
     }
 }

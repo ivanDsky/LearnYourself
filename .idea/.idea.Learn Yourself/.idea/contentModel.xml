@@ -32,10 +32,18 @@
           <e p="AnswerController.cs" t="Include" />
           <e p="AnswerListener.cs" t="Include" />
           <e p="AnswerTypes" t="Include">
-            <e p="AnswerTypes.cs" t="Include" />
+            <e p="AnswerType.cs" t="Include" />
             <e p="IAnswerType.cs" t="Include" />
             <e p="InputAnswer.cs" t="Include" />
             <e p="SimpleAnswer.cs" t="Include" />
+          </e>
+          <e p="QuestionController.cs" t="Include" />
+          <e p="QuestionListener.cs" t="Include" />
+          <e p="QuestionTypes" t="Include">
+            <e p="AudioQuestion.cs" t="Include" />
+            <e p="IQuestionTypes.cs" t="Include" />
+            <e p="QuestionType.cs" t="Include" />
+            <e p="TextQuestion.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">
