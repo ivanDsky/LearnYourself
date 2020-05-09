@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4892f90-1926-4b10-9639-6537059318dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerListener.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerListener.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerTypes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerTypes.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/IAnswerType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/IAnswerType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05F2AC9C-8847-4269-9276-5A22EF6D94CA/b5/80e8855b/Debug.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/IAnswerType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerTypes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/a.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IAnswerType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SingleAnswer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/MultipleAnswer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerTypes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/IAnswerType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonSceneLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerListener.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bfY7scCznBqBH0OiMkNhTdUxmV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34993446" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30013105" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="14388">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="14388" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4892f90-1926-4b10-9639-6537059318dd" name="Default Changelist" comment="" />
+      <created>1589024460137</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589024460137</updated>
+      <workItem from="1589024506227" duration="7853000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1557" height="303" key="GridCell.Tab.0.bottom" timestamp="1589038645906">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="303" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589038645906" />
+    <state width="1557" height="303" key="GridCell.Tab.0.center" timestamp="1589038645906">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="303" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1589038645906" />
+    <state width="1557" height="303" key="GridCell.Tab.0.left" timestamp="1589038645906">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="303" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1589038645906" />
+    <state width="1557" height="303" key="GridCell.Tab.0.right" timestamp="1589038645906">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="303" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1589038645906" />
+    <state width="1557" height="303" key="GridCell.Tab.1.bottom" timestamp="1589038645907">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="303" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589038645907" />
+    <state width="1557" height="303" key="GridCell.Tab.1.center" timestamp="1589038645906">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="303" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1589038645906" />
+    <state width="1557" height="303" key="GridCell.Tab.1.left" timestamp="1589038645906">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="303" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1589038645906" />
+    <state width="1557" height="303" key="GridCell.Tab.1.right" timestamp="1589038645907">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="303" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1589038645907" />
+    <state x="573" y="115" key="RiderGenerateDialog" timestamp="1589034822859">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="573" y="115" key="RiderGenerateDialog/0.0.1600.860@0.0.1600.860" timestamp="1589034822859" />
+    <state x="609" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589034248832">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="609" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1589034248832" />
+    <state x="407" y="134" width="786" height="592" key="find.popup" timestamp="1589034833920">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="407" y="134" width="786" height="592" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1589034833920" />
+    <state x="572" y="143" key="git4idea.branch.GitSmartOperationDialog" timestamp="1589031640796">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="572" y="143" key="git4idea.branch.GitSmartOperationDialog/0.0.1600.860@0.0.1600.860" timestamp="1589031640796" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1589038073645">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1589038073645" />
+  </component>
+</project>
