@@ -5,7 +5,7 @@ namespace QuestionTypes
 {
     public class AudioQuestion : IQuestionType
     {
-        public QuestionType QuestionType => QuestionType.Audio;
+        public QuestionType Type => QuestionType.Audio;
         public AudioClip Track { get; set; }
     }
 }

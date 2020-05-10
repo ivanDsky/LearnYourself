@@ -5,7 +5,7 @@ namespace QuestionTypes
 {
     public class TextQuestion : IQuestionType
     {
-        public QuestionType QuestionType => QuestionType.Text;
+        public QuestionType Type => QuestionType.Text;
         public string Text { get; set; }
     }
 }

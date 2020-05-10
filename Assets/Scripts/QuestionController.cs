@@ -2,9 +2,8 @@ using System;
 using QuestionTypes;
 using Sirenix.OdinInspector;
 using UnityEngine;
-public class QuestionController : MonoBehaviour
+public class QuestionController : Controller<IQuestionType>
 {
-    private event Action<IQuestionType> QuestionUpdate;
     public IQuestionType[] questions = {new TextQuestion(), new AudioQuestion(),new TextQuestion()};
     private int questionsID;
     
@@ -13,21 +12,6 @@ public class QuestionController : MonoBehaviour
     public void Next()
     {
         if (questionsID >= questions.Length) return;
-        OnQuestionUpdate(questions[questionsID++]);
-    }
-    
-    public void AddListener(Action<IQuestionType> action)
-    {
-        QuestionUpdate += action;
-    }
-    
-    public void RemoveListener(Action<IQuestionType> action)
-    {
-        QuestionUpdate -= action;
-    }
-
-    public void OnQuestionUpdate(IQuestionType obj)
-    {
-        QuestionUpdate?.Invoke(obj);
+        OnObjectUpdate(questions[questionsID++]);
     }
 }

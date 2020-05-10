@@ -4,7 +4,7 @@ namespace AnswerTypes
 {
     public class SimpleAnswer : IAnswerType
     {
-        public AnswerTypes AnswerType => AnswerTypes.Simple;
         public List<AnswerData> Data { get; set; }
+        public AnswerType Type => AnswerType.Simple;
     }
 }

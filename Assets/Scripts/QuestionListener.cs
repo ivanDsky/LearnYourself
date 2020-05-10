@@ -14,7 +14,7 @@ public class QuestionListener : MonoBehaviour
 
     private void Enable(IQuestionType question)
     {
-        gameObject.SetActive(question.QuestionType == questionType);
+        gameObject.SetActive(question.Type == questionType);
     }
     
     private void OnDestroy()

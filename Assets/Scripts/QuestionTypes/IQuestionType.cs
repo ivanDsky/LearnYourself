@@ -2,8 +2,8 @@ using System.Collections.Generic;
 
 namespace QuestionTypes
 {
-    public interface IQuestionType
+    public interface IQuestionType : IType<QuestionType>
     {
-        QuestionType QuestionType { get; }
+        
     }
 }

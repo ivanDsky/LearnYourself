@@ -38,10 +38,18 @@
             <e p="InputAnswer.cs" t="Include" />
             <e p="SimpleAnswer.cs" t="Include" />
           </e>
+          <e p="Controller.cs" t="Include" />
+          <e p="GameModeTypes" t="Include">
+            <e p="GameModeDefault.cs" t="Include" />
+            <e p="GameModeSurvival.cs" t="Include" />
+            <e p="GameModeTimer.cs" t="Include" />
+            <e p="GameModeType.cs" t="Include" />
+            <e p="IGameModeType.cs" t="Include" />
+          </e>
+          <e p="IType.cs" t="Include" />
           <e p="QA" t="Include">
             <e p="QA.cs" t="Include" />
             <e p="QATag.cs" t="Include" />
-            <e p="QAType.cs" t="Include" />
           </e>
           <e p="QuestionController.cs" t="Include" />
           <e p="QuestionListener.cs" t="Include" />

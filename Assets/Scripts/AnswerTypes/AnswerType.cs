@@ -1,6 +1,6 @@
 namespace AnswerTypes
 {
-    public enum AnswerTypes
+    public enum AnswerType
     {
         Simple,
         Multiple,

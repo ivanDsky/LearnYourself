@@ -5,7 +5,7 @@ using UnityEngine;
 public class AnswerListener : MonoBehaviour
 {
     public AnswerController controller;
-    public AnswerTypes.AnswerTypes answerType;
+    public AnswerTypes.AnswerType answerType;
     
     private void Start()
     {
@@ -15,7 +15,7 @@ public class AnswerListener : MonoBehaviour
 
     private void Enable(IAnswerType answer)
     {
-        gameObject.SetActive(answerType == answer.AnswerType);
+        gameObject.SetActive(answerType == answer.Type);
         Debug.Log(enabled);
     }
 

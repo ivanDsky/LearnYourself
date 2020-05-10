@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using AnswerTypes;
+using GameModeTypes;
 using QuestionTypes;
 
 namespace QA
@@ -9,7 +10,7 @@ namespace QA
         public IQuestionType question;
         public IAnswerType answer;
         public readonly List<QATag> tags = new List<QATag>();//TODO not readonly
-        public QAType type = QAType.Default;
+        public IGameModeType type = new GameModeDefault();
         public string path;//TODO optional
 
         public QA()
