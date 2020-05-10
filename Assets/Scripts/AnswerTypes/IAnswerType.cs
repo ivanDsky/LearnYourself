@@ -1,8 +1,10 @@
+using System.Collections.Generic;
+
 namespace AnswerTypes
 {
     public interface IAnswerType
     {
-        string Text { get; set;}
+        List<AnswerData> Data { get; set;}
         AnswerTypes AnswerType { get;}
     }
 }
