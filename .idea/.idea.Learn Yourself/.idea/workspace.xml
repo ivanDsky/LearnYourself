@@ -25,91 +25,18 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4892f90-1926-4b10-9639-6537059318dd" name="Default Changelist" comment="Add GameMode">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Button.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Button.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonCreator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonCreator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Extensions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Extensions/Extensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Extensions/Extensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Extensions/RandomExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Extensions/RandomExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QAManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QAManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Read_Me.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Read_Me.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo Round test screen.url" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo Round test screen.url.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Bold_Demo SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Bold_Demo SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Bold_Demo.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Bold_Demo.otf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Bold_Italic_Demo.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Bold_Italic_Demo.otf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Italic_Demo.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Italic_Demo.otf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Light_Demo.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Light_Demo.otf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Light_Italic_Demo.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Light_Italic_Demo.otf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Regular_Demo.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Regular_Demo.otf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Thin_Demo.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Thin_Demo.otf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Thin_Italic Demo.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Thin_Italic Demo.otf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/typo_round_1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/typo_round_1024.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
+    <list default="true" id="e4892f90-1926-4b10-9639-6537059318dd" name="Default Changelist" comment="Added visual objects of answers and questoins">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Button.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerListener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/IAnswerType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/IAnswerType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameModeTypes/GameModeDefault.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameModeTypes/GameModeDefault.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameModeTypes/GameModeSurvival.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameModeTypes/GameModeSurvival.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameModeTypes/GameModeTimer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameModeTypes/GameModeTimer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameModeTypes/IGameModeType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameModeTypes/IGameModeType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QASpace.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QA/QA.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QASpace/QA.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QA/QA.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QASpace/QA.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QA/QATag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QASpace/QATag.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QA/QATag.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QASpace/QATag.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QAManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QAManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestionListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionListener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/AudioQuestion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/AudioQuestion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/IQuestionType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/IQuestionType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/TextQuestion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/TextQuestion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Bold_Demo SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Bold_Demo SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +80,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -194,21 +120,21 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameModeTypes/IGameModeType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/RandomExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/Extensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/QAManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/IQuestionType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/AudioQuestion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/QuestionController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/TextQuestion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuestionListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/IAnswerType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ButtonCreator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/ButtonController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/QuestionController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/QAManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonController.cs" />
       </list>
     </option>
   </component>
@@ -256,7 +182,7 @@
       <updated>1589024460137</updated>
       <workItem from="1589024506227" duration="7853000" />
       <workItem from="1589095058259" duration="570000" />
-      <workItem from="1589290466269" duration="9279000" />
+      <workItem from="1589290466269" duration="10259000" />
     </task>
     <task id="LOCAL-00001" summary="Added QuestionController">
       <created>1589044386036</created>
@@ -279,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589091640758</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added visual objects of answers and questoins">
+      <created>1589301733564</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589301733564</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,49 +250,54 @@
     <MESSAGE value="Added QuestionController" />
     <MESSAGE value="Add QA" />
     <MESSAGE value="Add GameMode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add GameMode" />
+    <MESSAGE value="Added visual objects of answers and questoins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added visual objects of answers and questoins" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="778" height="303" key="GridCell.Tab.0.bottom" timestamp="1589301273163">
+    <state width="1557" height="303" key="GridCell.Tab.0.bottom" timestamp="1589301743016">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="778" height="303" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589301273163" />
-    <state width="778" height="303" key="GridCell.Tab.0.center" timestamp="1589301273163">
+    <state width="1557" height="303" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589301743016" />
+    <state width="1557" height="303" key="GridCell.Tab.0.center" timestamp="1589301743015">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="778" height="303" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1589301273163" />
-    <state width="778" height="303" key="GridCell.Tab.0.left" timestamp="1589301273162">
+    <state width="1557" height="303" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1589301743015" />
+    <state width="1557" height="303" key="GridCell.Tab.0.left" timestamp="1589301743015">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="778" height="303" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1589301273162" />
-    <state width="778" height="303" key="GridCell.Tab.0.right" timestamp="1589301273163">
+    <state width="1557" height="303" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1589301743015" />
+    <state width="1557" height="303" key="GridCell.Tab.0.right" timestamp="1589301743015">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="778" height="303" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1589301273163" />
-    <state width="778" height="303" key="GridCell.Tab.1.bottom" timestamp="1589301273164">
+    <state width="1557" height="303" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1589301743015" />
+    <state width="1557" height="303" key="GridCell.Tab.1.bottom" timestamp="1589301743016">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="778" height="303" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589301273164" />
-    <state width="778" height="303" key="GridCell.Tab.1.center" timestamp="1589301273163">
+    <state width="1557" height="303" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589301743016" />
+    <state width="1557" height="303" key="GridCell.Tab.1.center" timestamp="1589301743016">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="778" height="303" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1589301273163" />
-    <state width="778" height="303" key="GridCell.Tab.1.left" timestamp="1589301273163">
+    <state width="1557" height="303" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1589301743016" />
+    <state width="1557" height="303" key="GridCell.Tab.1.left" timestamp="1589301743016">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="778" height="303" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1589301273163" />
-    <state width="778" height="303" key="GridCell.Tab.1.right" timestamp="1589301273163">
+    <state width="1557" height="303" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1589301743016" />
+    <state width="1557" height="303" key="GridCell.Tab.1.right" timestamp="1589301743016">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="778" height="303" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1589301273163" />
+    <state width="1557" height="303" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1589301743016" />
     <state x="573" y="115" key="RiderGenerateDialog" timestamp="1589291389320">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="573" y="115" key="RiderGenerateDialog/0.0.1600.860@0.0.1600.860" timestamp="1589291389320" />
-    <state x="392" y="149" key="Vcs.Push.Dialog.v2" timestamp="1589091642398">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1589301796165">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="149" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1589091642398" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1600.860@0.0.1600.860" timestamp="1589301796165" />
+    <state x="392" y="149" key="Vcs.Push.Dialog.v2" timestamp="1589301735512">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="149" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1589301735512" />
     <state x="-91" y="103" width="1416" height="676" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1589092234018">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -380,9 +318,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="572" y="143" key="git4idea.branch.GitSmartOperationDialog/0.0.1600.860@0.0.1600.860" timestamp="1589031640796" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1589038073645">
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1589301824956">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1589038073645" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1589301824956" />
   </component>
 </project>

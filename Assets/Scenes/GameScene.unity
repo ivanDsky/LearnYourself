@@ -208,7 +208,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e12e53c269fd499eb63de9d5102b50ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  answerID: 0
 --- !u!1 &472978035
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,6 +545,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questions:
   - path: 
+  questionController: {fileID: 472978039}
+  answerController: {fileID: 336212345}
 --- !u!1 &1551891316
 GameObject:
   m_ObjectHideFlags: 0
