@@ -8,7 +8,7 @@ public class QuestionListener : MonoBehaviour
     public QuestionType questionType;
     public GameObject content;
 
-    private void Start()
+    private void Awake()
     {
         controller.AddListener(Enable);
         gameObject.SetActive(false);
@@ -17,7 +17,7 @@ public class QuestionListener : MonoBehaviour
     private void Enable(IQuestionType question)
     {
         gameObject.SetActive(question.Type == questionType);
-        if (enabled)
+        if (gameObject.activeSelf)
         {
            question.InitContent(content);
         }

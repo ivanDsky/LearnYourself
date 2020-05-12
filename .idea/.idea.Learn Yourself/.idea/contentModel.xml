@@ -45,6 +45,7 @@
           <e p="Extensions" t="Include">
             <e p="Extensions.cs" t="Include" />
             <e p="RandomExtensions.cs" t="Include" />
+            <e p="Timer.cs" t="Include" />
           </e>
           <e p="GameModeTypes" t="Include">
             <e p="GameModeDefault.cs" t="Include" />
@@ -53,6 +54,7 @@
             <e p="GameModeType.cs" t="Include" />
             <e p="IGameModeType.cs" t="Include" />
           </e>
+          <e p="MenuController.cs" t="Include" />
           <e p="QAManager.cs" t="Include" />
           <e p="QASpace" t="Include">
             <e p="QA.cs" t="Include" />
@@ -62,6 +64,7 @@
           <e p="QuestionListener.cs" t="Include" />
           <e p="QuestionTypes" t="Include">
             <e p="AudioQuestion.cs" t="Include" />
+            <e p="ImageQuestion.cs" t="Include" />
             <e p="IQuestionType.cs" t="Include" />
             <e p="QuestionType.cs" t="Include" />
             <e p="TextQuestion.cs" t="Include" />

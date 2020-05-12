@@ -8,7 +8,7 @@ public class AnswerListener : MonoBehaviour
     public AnswerType answerType;
     public GameObject content;
     
-    private void Start()
+    private void Awake()
     {
         gameObject.SetActive(false);
         controller.AddListener(Enable);

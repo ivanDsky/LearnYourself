@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using AnswerTypes;
@@ -11,20 +10,55 @@ using QuestionTypes;
 
 public class QAManager : MonoBehaviour
 {
-    public List<QA> questions = new List<QA>{new QA(
-        new TextQuestion("Question"),
-        new SimpleAnswer(new List<AnswerData>{new AnswerData("Answer",true)}), 
-        new GameModeDefault())};
+    public Sprite spriteImage;
+    private List<QA> questions = new List<QA>();
 
     [SerializeField]private QuestionController questionController;
     [SerializeField]private AnswerController answerController;
 
+    public void Adding()
+    {
+        questions.Add(
+            new QA(
+                new TextQuestion("Question #1"),
+                new SimpleAnswer(new List<AnswerData> {new AnswerData("Answer", true)}),
+                new GameModeDefault()
+                ));
+        questions.Add(
+            new QA(
+                new TextQuestion("Question #2"),
+                new SimpleAnswer(new List<AnswerData>
+                {
+                    new AnswerData("First Answer", true),
+                    new AnswerData("Second Answer", false),
+                    new AnswerData("Third Answer", true),
+                }),
+                new GameModeDefault()
+                ));
+        questions.Add(
+            new QA(
+                new ImageQuestion(spriteImage), 
+                new SimpleAnswer(new List<AnswerData>
+                {
+                    new AnswerData("First Answer",false),
+                    new AnswerData("Second Answer",true),
+                    new AnswerData("Third Answer",false),
+                }), 
+                new GameModeDefault()
+                ));
+    }
+    
     public void Awake()
     {
+        Adding();
         questions.Shuffle();
+        
+        foreach (var question in questions)
+        {
+            question.answer.Data.Shuffle();
+        }
     }
-
-    [Button]
+    
     public void Next()
     {
         if (questions.Count <= 0) return;
@@ -35,10 +69,5 @@ public class QAManager : MonoBehaviour
     {
         questionController.OnObjectUpdate(question.question);
         answerController.OnObjectUpdate(question.answer);
-    }
-
-    private void Start()
-    {
-        questions.Shuffle();
     }
 }

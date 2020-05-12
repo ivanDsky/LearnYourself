@@ -11,13 +11,15 @@ public class ButtonController : MonoBehaviour
     private TextMeshProUGUI text;
     private Image image;
     private bool isCorrect;
+    private Color saveColor;
 
     private void Awake()
     {
         text = GetComponentInChildren<TextMeshProUGUI>();
         image = GetComponent<Image>();
+        saveColor = image.color;
     }
-
+    
     public void InitContent(AnswerData data)
     {
         text.text = data.data;
@@ -27,5 +29,10 @@ public class ButtonController : MonoBehaviour
     public void CheckCorrectness()
     {
         image.color = isCorrect ? correctColor : incorrectColor;
+    }
+
+    public void Reset()
+    {
+        image.color = saveColor;
     }
 }

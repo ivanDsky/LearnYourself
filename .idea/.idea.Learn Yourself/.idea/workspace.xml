@@ -25,18 +25,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4892f90-1926-4b10-9639-6537059318dd" name="Default Changelist" comment="Added visual objects of answers and questoins">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="e4892f90-1926-4b10-9639-6537059318dd" name="Default Changelist" comment="Added bunch of interface changes and ImageQuestion">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Button.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonCreator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/QAManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QAManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Bold_Demo SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/typo-round/Typo_Round_Bold_Demo SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/ImageQuestion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/ImageQuestion.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,42 +52,50 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05F2AC9C-8847-4269-9276-5A22EF6D94CA/b5/80e8855b/Debug.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QASpace/QATag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/c4/7a3ab46c/Void.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/d5/561a8330/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Extensions/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestionTypes/IQuestionType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Extensions/RandomExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Extensions/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameModeTypes/GameModeType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/fd/893c93ab/Action.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestionTypes/QuestionType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Scripts/SerializedNetworkBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestionTypes/TextQuestion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameModeTypes/IGameModeType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameModeTypes/GameModeDefault.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestionTypes/AudioQuestion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/IAnswerType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameModeTypes/GameModeSurvival.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestionController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestionListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameModeTypes/GameModeTimer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2019.3.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/78/4403c61d/IList`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestionTypes/ImageQuestion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/85/ca6b17dd/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonCreator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///QAManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05F2AC9C-8847-4269-9276-5A22EF6D94CA/97/dda82da7/UnityEventBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/a.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IAnswerType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SingleAnswer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/MultipleAnswer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerTypes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ButtonSceneLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/QuestionType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QandA.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/IQuestionTypes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QATags.cs" />
@@ -123,18 +126,22 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/IQuestionType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/AudioQuestion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/TextQuestion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/QuestionListener.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/IAnswerType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonCreator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/ButtonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuestionController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/QAManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/Timer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ButtonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MenuController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/QuestionListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/QuestionType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/TextQuestion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonCreator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/ImageQuestion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/QAManager.cs" />
       </list>
     </option>
   </component>
@@ -155,12 +162,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.build.unityPlugin" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="10920">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="10920" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="17576">
@@ -182,7 +190,7 @@
       <updated>1589024460137</updated>
       <workItem from="1589024506227" duration="7853000" />
       <workItem from="1589095058259" duration="570000" />
-      <workItem from="1589290466269" duration="10259000" />
+      <workItem from="1589290466269" duration="19761000" />
     </task>
     <task id="LOCAL-00001" summary="Added QuestionController">
       <created>1589044386036</created>
@@ -212,7 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589301733564</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Made QAManager.cs able to work">
+      <created>1589302626190</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589302626190</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added bunch of interface changes and ImageQuestion">
+      <created>1589317409733</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589317409733</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,61 +273,71 @@
     <MESSAGE value="Add QA" />
     <MESSAGE value="Add GameMode" />
     <MESSAGE value="Added visual objects of answers and questoins" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added visual objects of answers and questoins" />
+    <MESSAGE value="Made QAManager.cs able to work" />
+    <MESSAGE value="Added bunch of interface changes and ImageQuestion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added bunch of interface changes and ImageQuestion" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1557" height="303" key="GridCell.Tab.0.bottom" timestamp="1589301743016">
+    <state width="424" height="464" key="DebuggerActiveHint" timestamp="1589316692495">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589301743016" />
-    <state width="1557" height="303" key="GridCell.Tab.0.center" timestamp="1589301743015">
+    <state width="424" height="464" key="DebuggerActiveHint/0.0.1600.860@0.0.1600.860" timestamp="1589316692495" />
+    <state width="1557" height="303" key="GridCell.Tab.0.bottom" timestamp="1589318777761">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1589301743015" />
-    <state width="1557" height="303" key="GridCell.Tab.0.left" timestamp="1589301743015">
+    <state width="1557" height="303" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589318777761" />
+    <state width="1557" height="303" key="GridCell.Tab.0.center" timestamp="1589318777760">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1589301743015" />
-    <state width="1557" height="303" key="GridCell.Tab.0.right" timestamp="1589301743015">
+    <state width="1557" height="303" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1589318777760" />
+    <state width="1557" height="303" key="GridCell.Tab.0.left" timestamp="1589318777760">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1589301743015" />
-    <state width="1557" height="303" key="GridCell.Tab.1.bottom" timestamp="1589301743016">
+    <state width="1557" height="303" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1589318777760" />
+    <state width="1557" height="303" key="GridCell.Tab.0.right" timestamp="1589318777761">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589301743016" />
-    <state width="1557" height="303" key="GridCell.Tab.1.center" timestamp="1589301743016">
+    <state width="1557" height="303" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1589318777761" />
+    <state width="1557" height="303" key="GridCell.Tab.1.bottom" timestamp="1589318777761">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1589301743016" />
-    <state width="1557" height="303" key="GridCell.Tab.1.left" timestamp="1589301743016">
+    <state width="1557" height="303" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589318777761" />
+    <state width="1557" height="303" key="GridCell.Tab.1.center" timestamp="1589318777761">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1589301743016" />
-    <state width="1557" height="303" key="GridCell.Tab.1.right" timestamp="1589301743016">
+    <state width="1557" height="303" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1589318777761" />
+    <state width="1557" height="303" key="GridCell.Tab.1.left" timestamp="1589318777761">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1589301743016" />
-    <state x="573" y="115" key="RiderGenerateDialog" timestamp="1589291389320">
+    <state width="1557" height="303" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1589318777761" />
+    <state width="1557" height="303" key="GridCell.Tab.1.right" timestamp="1589318777761">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="573" y="115" key="RiderGenerateDialog/0.0.1600.860@0.0.1600.860" timestamp="1589291389320" />
+    <state width="1557" height="303" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1589318777761" />
+    <state x="573" y="115" key="RiderGenerateDialog" timestamp="1589315213342">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="573" y="115" key="RiderGenerateDialog/0.0.1600.860@0.0.1600.860" timestamp="1589315213342" />
+    <state x="301" y="74" key="SettingsEditor" timestamp="1589316847750">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1589316847750" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1589301796165">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1600.860@0.0.1600.860" timestamp="1589301796165" />
-    <state x="392" y="149" key="Vcs.Push.Dialog.v2" timestamp="1589301735512">
+    <state x="392" y="149" key="Vcs.Push.Dialog.v2" timestamp="1589317411766">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="149" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1589301735512" />
+    <state x="392" y="149" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1589317411766" />
     <state x="-91" y="103" width="1416" height="676" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1589092234018">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="-91" y="103" width="1416" height="676" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1589092234018" />
-    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1589089129537">
+    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1589317427426">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1589089129537" />
+    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1589317427426" />
     <state x="609" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589034248832">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -322,5 +354,56 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1589301824956" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/QuestionTypes/TextQuestion.cs</url>
+          <line>13</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/TextQuestion.cs" initialLine="13">
+            <startOffsets>
+              <option value="307" />
+            </startOffsets>
+            <endOffsets>
+              <option value="326" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/QuestionTypes/ImageQuestion.cs</url>
+          <line>12</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/ImageQuestion.cs" initialLine="12">
+            <startOffsets>
+              <option value="301" />
+            </startOffsets>
+            <endOffsets>
+              <option value="342" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/QAManager.cs</url>
+          <line>64</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/QAManager.cs" initialLine="64">
+            <startOffsets>
+              <option value="1849" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1889" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
+        <watch expression="questions" language="C#" />
+        <watch expression="ObjectUpdate" language="C#" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

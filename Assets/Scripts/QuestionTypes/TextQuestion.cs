@@ -13,6 +13,7 @@ namespace QuestionTypes
         {
             Debug.Log(content);
             content.GetComponent<TextMeshProUGUI>().text = Text;
+            Debug.Log(content);
         }
 
         public string Text { get; set; }
