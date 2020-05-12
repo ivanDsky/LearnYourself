@@ -1,7 +1,7 @@
 namespace GameModeTypes
 {
-    public interface IGameModeType : IType<GameModeType>
+    public interface IGameModeType
     {
-        
+        GameModeType Type { get; }
     }
 }

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2705215ac5b84b70bacc50632be6e391, type: 3}
   m_Name: TMP Settings
   m_EditorClassIdentifier: 
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_enableKerning: 1
   m_enableExtraPadding: 0
   m_enableTintAllSprites: 0
@@ -21,9 +21,9 @@ MonoBehaviour:
   m_GetFontFeaturesAtRuntime: 1
   m_missingGlyphCharacter: 0
   m_warningsDisabled: 1
-  m_defaultFontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_defaultFontAsset: {fileID: 11400000, guid: c7d5bfa6c541c0144b2397d5af2bb583, type: 2}
   m_defaultFontAssetPath: Fonts & Materials/
-  m_defaultFontSize: 36
+  m_defaultFontSize: 82
   m_defaultAutoSizeMinRatio: 0.5
   m_defaultAutoSizeMaxRatio: 2
   m_defaultTextMeshProTextContainerSize: {x: 20, y: 5}

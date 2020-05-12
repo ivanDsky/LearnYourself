@@ -4,7 +4,7 @@ using Sirenix.OdinInspector;
 using UnityEngine;
 public class QuestionController : Controller<IQuestionType>
 {
-    public IQuestionType[] questions = {new TextQuestion(), new AudioQuestion(),new TextQuestion()};
+    public IQuestionType[] questions = {new TextQuestion("This is simple text") };
     private int questionsID;
     
     //TODO temporary

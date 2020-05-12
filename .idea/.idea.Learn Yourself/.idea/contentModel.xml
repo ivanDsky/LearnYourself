@@ -16,6 +16,7 @@
                   <e p="BuildAOTAutomation.cs" t="Include" />
                   <e p="EnsureOdinInspectorDefine.cs" t="Include" />
                   <e p="FixBrokenUnityObjectWrapperDrawer.cs" t="Include" />
+                  <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.asmdef" t="Include" />
                   <e p="SyncListDrawer.cs" t="Include" />
                   <e p="SyncVarAttributeDrawer.cs" t="Include" />
                   <e p="Vector2IntMinMaxAttributeDrawer.cs" t="Include" />
@@ -23,6 +24,7 @@
                   <e p="VectorIntPropertyResolvers.cs" t="Include" />
                 </e>
                 <e p="SerializedNetworkBehaviour.cs" t="Include" />
+                <e p="Sirenix.OdinInspector.CompatibilityLayer.asmdef" t="Include" />
                 <e p="VectorIntFormatters.cs" t="Include" />
               </e>
             </e>
@@ -38,7 +40,13 @@
             <e p="InputAnswer.cs" t="Include" />
             <e p="SimpleAnswer.cs" t="Include" />
           </e>
+          <e p="ButtonController.cs" t="Include" />
+          <e p="ButtonCreator.cs" t="Include" />
           <e p="Controller.cs" t="Include" />
+          <e p="Extensions" t="Include">
+            <e p="Extensions.cs" t="Include" />
+            <e p="RandomExtensions.cs" t="Include" />
+          </e>
           <e p="GameModeTypes" t="Include">
             <e p="GameModeDefault.cs" t="Include" />
             <e p="GameModeSurvival.cs" t="Include" />
@@ -46,8 +54,8 @@
             <e p="GameModeType.cs" t="Include" />
             <e p="IGameModeType.cs" t="Include" />
           </e>
-          <e p="IType.cs" t="Include" />
-          <e p="QA" t="Include">
+          <e p="QAManager.cs" t="Include" />
+          <e p="QASpace" t="Include">
             <e p="QA.cs" t="Include" />
             <e p="QATag.cs" t="Include" />
           </e>
@@ -63,6 +71,9 @@
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
             <e p="LiberationSans - OFL.txt" t="Include" />
+            <e p="typo-round" t="Include">
+              <e p="Read_Me.txt" t="Include" />
+            </e>
           </e>
           <e p="Resources" t="Include">
             <e p="LineBreaking Following Characters.txt" t="Include" />

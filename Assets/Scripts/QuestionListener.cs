@@ -6,6 +6,8 @@ public class QuestionListener : MonoBehaviour
 {
     public QuestionController controller;
     public QuestionType questionType;
+    public GameObject content;
+
     private void Start()
     {
         controller.AddListener(Enable);
@@ -15,6 +17,10 @@ public class QuestionListener : MonoBehaviour
     private void Enable(IQuestionType question)
     {
         gameObject.SetActive(question.Type == questionType);
+        if (enabled)
+        {
+           question.InitContent(content);
+        }
     }
     
     private void OnDestroy()

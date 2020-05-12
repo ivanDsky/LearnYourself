@@ -1,4 +1,4 @@
-namespace QA
+namespace QASpace
 {
     public class QATag
     {
