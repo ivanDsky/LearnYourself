@@ -13,6 +13,7 @@ namespace AnswerTypes
         public void InitContent(GameObject content)
         {
             content.GetComponent<ButtonCreator>().InitButtons(Data.Count);
+            content.GetComponent<ButtonCreator>().InitSimpleButton(Data.Count);
             for (int id = 0; id < Data.Count; id++)
             {
                 content.transform.GetChild(id).GetComponent<ButtonController>().InitContent(Data[id]);

@@ -5,9 +5,9 @@ namespace AnswerTypes
     public class AnswerData
     {
         public string data;
-        public bool isCorrect = false;
+        public bool isCorrect;
 
-        public AnswerData(string data,bool isCorrect)
+        public AnswerData(string data,bool isCorrect = false)
         {
             this.data = data;
             this.isCorrect = isCorrect;

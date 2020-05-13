@@ -6,26 +6,49 @@ using UnityEngine.UI;
 public class ButtonCreator : MonoBehaviour
 {
     public GameObject buttonPrefab;
-
+    public int childCount;
     public void InitButtons(int count)
     {
-        for (int i = 0; i < transform.childCount; ++i)
+        childCount = transform.childCount;
+        for (int i = 0; i < childCount; ++i)
         {
             //Disable button if we don't need it now
             transform.GetChild(i).gameObject.SetActive(i < count);
-            transform.GetChild(i).GetComponent<ButtonController>().Reset();
-            
         }
 
         //Instantiate buttons that we need
-        for (int i = transform.childCount; i < count; ++i)
+        for (int i = childCount; i < count; ++i)
         {
             GameObject obj = Instantiate(buttonPrefab, transform);
+        }
+    }
+
+    public void InitMatchButton(int count)
+    {
+        //Instantiate buttons that we need
+        for (int i = childCount; i < count; ++i)
+        {
+            GameObject obj = transform.GetChild(i).gameObject;
+            obj.GetComponent<MatchButtonController>().Sync();
+        }
+    }
+
+    public void InitSimpleButton(int count)
+    {
+        for (int i = 0; i < childCount; ++i)
+        {
+            transform.GetChild(i).GetComponent<ButtonController>().Reset();
+        }
+
+        //Instantiate buttons that we need
+        for (int i = childCount; i < count; ++i)
+        {
+            GameObject obj = transform.GetChild(i).gameObject;
             Timer timer = obj.GetComponent<Timer>();
             obj.GetComponent<Button>().onClick.AddListener(() =>
-                {    
-                    timer.SetTimer(GlobalSettings.instance.qaManager.Next,GlobalSettings.instance.nextQuestionDelay);//TODO block buttons when first clicked
-                });
+            {    
+                timer.SetTimer(GlobalSettings.instance.qaManager.Next,GlobalSettings.instance.nextQuestionDelay);//TODO block buttons when first clicked
+            });
         }
     }
 }

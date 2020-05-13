@@ -18,29 +18,49 @@ public class QAManager : MonoBehaviour
 
     public void Adding()
     {
+        // questions.Add(
+        //     new QA(
+        //         new TextQuestion("Question #1"),
+        //         new SimpleAnswer(new List<AnswerData> {new AnswerData("Answer", true)}),
+        //         new GameModeDefault()
+        //         ));
+        // questions.Add(
+        //     new QA(
+        //         new TextQuestion("Question #2"),
+        //         new SimpleAnswer(new List<AnswerData>
+        //         {
+        //             new AnswerData("First Answer", true),
+        //             new AnswerData("Second Answer", false),
+        //             new AnswerData("Third Answer", true),
+        //         }),
+        //         new GameModeDefault()
+        //         ));
+        // questions.Add(
+        //     new QA(
+        //         new ImageQuestion(spriteImage), 
+        //         new InputAnswer(new AnswerData("It is image",true)), 
+        //         new GameModeDefault()
+        //         ));
         questions.Add(
             new QA(
-                new TextQuestion("Question #1"),
-                new SimpleAnswer(new List<AnswerData> {new AnswerData("Answer", true)}),
+                new TextQuestion("This is match question"), 
+                new MatchAnswer(
+                    new List<AnswerData>
+                    {
+                        new AnswerData("1.1"),
+                        new AnswerData("1.2"),
+                        new AnswerData("1.3"),
+                        new AnswerData("1.4"),
+                    }, 
+                    new List<AnswerData>
+                    {
+                        new AnswerData("2.1"),
+                        new AnswerData("2.2"),
+                        new AnswerData("2.3"),
+                    }
+                    ), 
                 new GameModeDefault()
-                ));
-        questions.Add(
-            new QA(
-                new TextQuestion("Question #2"),
-                new SimpleAnswer(new List<AnswerData>
-                {
-                    new AnswerData("First Answer", true),
-                    new AnswerData("Second Answer", false),
-                    new AnswerData("Third Answer", true),
-                }),
-                new GameModeDefault()
-                ));
-        questions.Add(
-            new QA(
-                new ImageQuestion(spriteImage), 
-                new InputAnswer(new AnswerData("It is image",true)), 
-                new GameModeDefault()
-                ));
+            ));
     }
     
     public void Awake()

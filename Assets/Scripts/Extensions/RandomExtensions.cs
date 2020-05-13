@@ -15,6 +15,11 @@ namespace Extensions
         /// <returns></returns>
         public static void Shuffle<T>(this IList<T> list) 
         {
+            if (list == null)
+            {
+                Debug.Log("List is Empty");
+                return;
+            }
             for (int i = 1; i < list.Count; i++)
             {
                 int randomID = Random.Range(0, i + 1);
