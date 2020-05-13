@@ -61,6 +61,7 @@
           <e p="InputController.cs" t="Include" />
           <e p="MatchAnswerController.cs" t="Include" />
           <e p="MatchButtonController.cs" t="Include" />
+          <e p="MatchCheckButtonController.cs" t="Include" />
           <e p="MenuController.cs" t="Include" />
           <e p="QAManager.cs" t="Include" />
           <e p="QASpace" t="Include">

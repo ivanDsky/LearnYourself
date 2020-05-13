@@ -7,6 +7,7 @@ public class GlobalSettings : MonoBehaviour
 
     public Color correctColor;
     public Color incorrectColor;
+    public Color selectedColor;
 
     public float nextQuestionDelay = 1f;
     

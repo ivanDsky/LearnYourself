@@ -28,5 +28,15 @@ namespace Extensions
                 list[randomID] = z;
             }
         }
+
+        public static Color RandomColor()
+        {
+            Color ret;
+            ret.r = Random.Range(0f, 1f);
+            ret.g = Random.Range(0f, 1f);
+            ret.b = Random.Range(0f, 1f);
+            ret.a = 1;
+            return ret;
+        }
     }
 }

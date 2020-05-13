@@ -10,23 +10,18 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4892f90-1926-4b10-9639-6537059318dd" name="Default Changelist" comment="Added InputAnswer, GlobalSettings(singleton), fixed minor issues">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MatchButton.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MatchButton.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/MatchAnswer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/MatchAnswer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MatchAnswerController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MatchAnswerController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MatchButtonController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MatchButtonController.cs.meta" afterDir="false" />
+    <list default="true" id="e4892f90-1926-4b10-9639-6537059318dd" name="Default Changelist" comment="Added MatchAnswer">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MatchCheckButtonController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MatchCheckButtonController.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/MatchAnswer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/MatchAnswer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonCreator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Extensions/RandomExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Extensions/RandomExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QAManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QAManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GlobalSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MatchAnswerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MatchAnswerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MatchButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MatchButtonController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +56,7 @@
     <setting file="mock:///QAManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchCheckButtonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/c4/7a3ab46c/Void.cs" root0="SKIP_HIGHLIGHTING" />
@@ -96,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/IQuestionTypes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QATags.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QA.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QA/QATags.cs" />
@@ -118,7 +113,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QASpace/QA.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameModeTypes/IGameModeType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/Extensions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/IQuestionType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/AudioQuestion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controller.cs" />
@@ -137,16 +131,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InputController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/TextQuestion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GlobalSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InputButtonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MatchAnswerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/RandomExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QAManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MatchButtonController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/MatchAnswer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GlobalSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ButtonCreator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/MatchAnswer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatchCheckButtonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatchButtonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/Extensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/RandomExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatchAnswerController.cs" />
       </list>
     </option>
   </component>
@@ -200,7 +196,7 @@
       <updated>1589024460137</updated>
       <workItem from="1589024506227" duration="7853000" />
       <workItem from="1589095058259" duration="570000" />
-      <workItem from="1589290466269" duration="29222000" />
+      <workItem from="1589290466269" duration="31494000" />
     </task>
     <task id="LOCAL-00001" summary="Added QuestionController">
       <created>1589044386036</created>
@@ -258,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589352361194</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added MatchAnswer">
+      <created>1589358173971</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589358173971</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +291,8 @@
     <MESSAGE value="Made QAManager.cs able to work" />
     <MESSAGE value="Added bunch of interface changes and ImageQuestion" />
     <MESSAGE value="Added InputAnswer, GlobalSettings(singleton), fixed minor issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added InputAnswer, GlobalSettings(singleton), fixed minor issues" />
+    <MESSAGE value="Added MatchAnswer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added MatchAnswer" />
   </component>
   <component name="WindowStateProjectService">
     <state width="424" height="464" key="DebuggerActiveHint" timestamp="1589351827744">
@@ -299,38 +303,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="494" y="329" key="GitRewordDialog/0.0.1600.860@0.0.1600.860" timestamp="1589352421546" />
-    <state width="1557" height="303" key="GridCell.Tab.0.bottom" timestamp="1589357089386">
+    <state width="1557" height="303" key="GridCell.Tab.0.bottom" timestamp="1589358187146">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589357089386" />
-    <state width="1557" height="303" key="GridCell.Tab.0.center" timestamp="1589357089386">
+    <state width="1557" height="303" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589358187146" />
+    <state width="1557" height="303" key="GridCell.Tab.0.center" timestamp="1589358187146">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1589357089386" />
-    <state width="1557" height="303" key="GridCell.Tab.0.left" timestamp="1589357089385">
+    <state width="1557" height="303" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1589358187146" />
+    <state width="1557" height="303" key="GridCell.Tab.0.left" timestamp="1589358187145">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1589357089385" />
-    <state width="1557" height="303" key="GridCell.Tab.0.right" timestamp="1589357089386">
+    <state width="1557" height="303" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1589358187145" />
+    <state width="1557" height="303" key="GridCell.Tab.0.right" timestamp="1589358187146">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1589357089386" />
-    <state width="1557" height="303" key="GridCell.Tab.1.bottom" timestamp="1589357089388">
+    <state width="1557" height="303" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1589358187146" />
+    <state width="1557" height="303" key="GridCell.Tab.1.bottom" timestamp="1589358187147">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589357089388" />
-    <state width="1557" height="303" key="GridCell.Tab.1.center" timestamp="1589357089387">
+    <state width="1557" height="303" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589358187147" />
+    <state width="1557" height="303" key="GridCell.Tab.1.center" timestamp="1589358187147">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1589357089387" />
-    <state width="1557" height="303" key="GridCell.Tab.1.left" timestamp="1589357089387">
+    <state width="1557" height="303" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1589358187147" />
+    <state width="1557" height="303" key="GridCell.Tab.1.left" timestamp="1589358187147">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1589357089387" />
-    <state width="1557" height="303" key="GridCell.Tab.1.right" timestamp="1589357089387">
+    <state width="1557" height="303" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1589358187147" />
+    <state width="1557" height="303" key="GridCell.Tab.1.right" timestamp="1589358187147">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1589357089387" />
+    <state width="1557" height="303" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1589358187147" />
     <state x="573" y="115" key="RiderGenerateDialog" timestamp="1589357585408">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -343,10 +347,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1600.860@0.0.1600.860" timestamp="1589301796165" />
-    <state x="392" y="149" key="Vcs.Push.Dialog.v2" timestamp="1589352440574">
+    <state x="392" y="149" key="Vcs.Push.Dialog.v2" timestamp="1589358177424">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="149" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1589352440574" />
+    <state x="392" y="149" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1589358177424" />
     <state x="-91" y="103" width="1416" height="676" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1589092234018">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -367,10 +371,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="572" y="143" key="git4idea.branch.GitSmartOperationDialog/0.0.1600.860@0.0.1600.860" timestamp="1589031640796" />
-    <state x="456" y="195" key="run.anything.popup" timestamp="1589350183868">
+    <state x="456" y="195" key="run.anything.popup" timestamp="1589362064952">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1589350183868" />
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1589362064952" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1589301824956">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

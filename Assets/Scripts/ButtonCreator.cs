@@ -23,13 +23,22 @@ public class ButtonCreator : MonoBehaviour
         }
     }
 
-    public void InitMatchButton(int count)
+    public void InitMatchButton(int count,MatchAnswerController answerController)
     {
+        for (int i = 0; i < childCount; ++i)
+        {
+            transform.GetChild(i).GetComponent<MatchButtonController>().Reset();
+        }
         //Instantiate buttons that we need
         for (int i = childCount; i < count; ++i)
         {
             GameObject obj = transform.GetChild(i).gameObject;
             obj.GetComponent<MatchButtonController>().Sync();
+            obj.GetComponent<Button>().onClick.AddListener(() =>
+            {
+                answerController.OnButtonClick(obj);
+            });
+            
         }
     }
 
