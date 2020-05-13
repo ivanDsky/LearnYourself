@@ -37,6 +37,7 @@
             <e p="AnswerData.cs" t="Include" />
             <e p="AnswerType.cs" t="Include" />
             <e p="IAnswerType.cs" t="Include" />
+            <e p="InputAnswer.cs" t="Include" />
             <e p="SimpleAnswer.cs" t="Include" />
           </e>
           <e p="ButtonController.cs" t="Include" />
@@ -54,6 +55,9 @@
             <e p="GameModeType.cs" t="Include" />
             <e p="IGameModeType.cs" t="Include" />
           </e>
+          <e p="GlobalSettings.cs" t="Include" />
+          <e p="InputButtonController.cs" t="Include" />
+          <e p="InputController.cs" t="Include" />
           <e p="MenuController.cs" t="Include" />
           <e p="QAManager.cs" t="Include" />
           <e p="QASpace" t="Include">

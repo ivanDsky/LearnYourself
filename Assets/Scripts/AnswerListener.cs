@@ -17,7 +17,7 @@ public class AnswerListener : MonoBehaviour
     private void Enable(IAnswerType answer)
     {
         gameObject.SetActive(answerType == answer.Type);
-        if (enabled)
+        if (gameObject.activeSelf)
         {
             answer.InitContent(content);
         }

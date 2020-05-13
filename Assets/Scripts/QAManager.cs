@@ -38,12 +38,7 @@ public class QAManager : MonoBehaviour
         questions.Add(
             new QA(
                 new ImageQuestion(spriteImage), 
-                new SimpleAnswer(new List<AnswerData>
-                {
-                    new AnswerData("First Answer",false),
-                    new AnswerData("Second Answer",true),
-                    new AnswerData("Third Answer",false),
-                }), 
+                new InputAnswer(new AnswerData("It is image",true)), 
                 new GameModeDefault()
                 ));
     }

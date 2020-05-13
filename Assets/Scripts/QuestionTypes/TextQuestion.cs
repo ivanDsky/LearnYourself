@@ -11,9 +11,7 @@ namespace QuestionTypes
         public QuestionType Type => QuestionType.Text;
         public void InitContent(GameObject content)
         {
-            Debug.Log(content);
             content.GetComponent<TextMeshProUGUI>().text = Text;
-            Debug.Log(content);
         }
 
         public string Text { get; set; }

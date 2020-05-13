@@ -11,6 +11,7 @@ namespace QuestionTypes
         public void InitContent(GameObject obj)
         {
             obj.GetComponent<Image>().sprite = Image;
+            //TODO: save picture ratio on pasting
         }
 
         public ImageQuestion(Sprite image)

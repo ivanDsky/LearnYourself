@@ -4,6 +4,7 @@ namespace AnswerTypes
     {
         Simple,
         Multiple,
-        Input
+        Input,
+        Match
     }
 }

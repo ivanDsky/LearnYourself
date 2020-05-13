@@ -6,8 +6,6 @@ using UnityEngine.UI;
 
 public class ButtonController : MonoBehaviour
 {
-    public Color correctColor;
-    public Color incorrectColor;
     private TextMeshProUGUI text;
     private Image image;
     private bool isCorrect;
@@ -28,7 +26,7 @@ public class ButtonController : MonoBehaviour
 
     public void CheckCorrectness()
     {
-        image.color = isCorrect ? correctColor : incorrectColor;
+        image.color = isCorrect ? GlobalSettings.instance.correctColor : GlobalSettings.instance.incorrectColor;
     }
 
     public void Reset()
