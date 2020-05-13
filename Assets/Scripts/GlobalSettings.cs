@@ -12,6 +12,7 @@ public class GlobalSettings : MonoBehaviour
     public float nextQuestionDelay = 1f;
     
     public QAManager qaManager;
+    public StatsManager statsManager;
     
     public GlobalSettings()
     {

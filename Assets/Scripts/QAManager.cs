@@ -7,56 +7,59 @@ using Sirenix.OdinInspector;
 using UnityEngine;
 using QASpace;
 using QuestionTypes;
+using UnityEditor;
 
 public class QAManager : MonoBehaviour
 {
     public Sprite spriteImage;
     private List<QA> questions = new List<QA>();
+    private QA current;
 
     [SerializeField]private QuestionController questionController;
     [SerializeField]private AnswerController answerController;
+    [SerializeField]private GameObject endPanel;
 
     public void Adding()
     {
-        // questions.Add(
-        //     new QA(
-        //         new TextQuestion("Question #1"),
-        //         new SimpleAnswer(new List<AnswerData> {new AnswerData("Answer", true)}),
-        //         new GameModeDefault()
-        //         ));
-        // questions.Add(
-        //     new QA(
-        //         new TextQuestion("Question #2"),
-        //         new SimpleAnswer(new List<AnswerData>
-        //         {
-        //             new AnswerData("First Answer", true),
-        //             new AnswerData("Second Answer", false),
-        //             new AnswerData("Third Answer", true),
-        //         }),
-        //         new GameModeDefault()
-        //         ));
-        // questions.Add(
-        //     new QA(
-        //         new ImageQuestion(spriteImage), 
-        //         new InputAnswer(new AnswerData("It is image",true)), 
-        //         new GameModeDefault()
-        //         ));
         questions.Add(
             new QA(
-                new TextQuestion("This is match question"), 
+                new TextQuestion("Кто может быть лучше разработчика этой игры?"),
+                new SimpleAnswer(new List<AnswerData> {new AnswerData("Никто", true)}),
+                new GameModeDefault()
+                ));
+        questions.Add(
+            new QA(
+                new TextQuestion("Получит ли Ира 1000 подписчиков"),
+                new SimpleAnswer(new List<AnswerData>
+                {
+                    new AnswerData("Конечно получит", true),
+                    new AnswerData("Ха-ха, нет конечно", false),
+                    new AnswerData("Если сильно постарается, то получит", true),
+                }),
+                new GameModeDefault()
+                ));
+        questions.Add(
+            new QA(
+                new ImageQuestion(spriteImage), 
+                new InputAnswer(new AnswerData("Это картинка",true)), 
+                new GameModeDefault()
+                ));
+        questions.Add(
+            new QA(
+                new TextQuestion("Тут надо будет соеденить вопрос с ответом"), 
                 new MatchAnswer(
                     new List<AnswerData>
                     {
-                        new AnswerData("1.1"),
-                        new AnswerData("1.2"),
-                        new AnswerData("1.3"),
-                        new AnswerData("1.4"),
+                        new AnswerData("Первый вопрос"),
+                        new AnswerData("Второй вопрос"),
+                        new AnswerData("Третий вопрос"),
+                        new AnswerData("А это вообще вопрос?"),
                     }, 
                     new List<AnswerData>
                     {
-                        new AnswerData("2.1"),
-                        new AnswerData("2.2"),
-                        new AnswerData("2.3"),
+                        new AnswerData("Первый ответ"),
+                        new AnswerData("Второй ответ"),
+                        new AnswerData("Третий ответ"),
                     }
                     ), 
                 new GameModeDefault()
@@ -76,7 +79,17 @@ public class QAManager : MonoBehaviour
     
     public void Next()
     {
-        if (questions.Count <= 0) return;
+        GlobalSettings.instance.statsManager.scoreController.ScoreUpdate();
+        if (questions.Count <= 0)
+        {
+            endPanel.SetActive(true);
+            endPanel.GetComponent<EndScreenController>().ShowScreen(
+                $"Your score is {GlobalSettings.instance.statsManager.scoreController.score:0.#} from " +
+                $"{GlobalSettings.instance.statsManager.scoreController.allScore:0.#}");
+            return;
+        }
+
+        current = questions.LastOrDefault();
         InitQuestion(questions.LastOrDefault());
         questions.RemoveAt(questions.Count - 1);
     }
@@ -84,5 +97,11 @@ public class QAManager : MonoBehaviour
     {
         questionController.OnObjectUpdate(question.question);
         answerController.OnObjectUpdate(question.answer);
+    }
+
+    public void QuestionUpdate(bool isCorrect)
+    {
+        if(isCorrect)GlobalSettings.instance.statsManager.ScoreUpdate(current.points);
+        GlobalSettings.instance.statsManager.AllScoreUpdate(current.points);
     }
 }

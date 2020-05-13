@@ -30,6 +30,7 @@ public class InputButtonController : MonoBehaviour
     public void CheckCorrectness()
     {
         var isCorrect = controller.correctText == field.text;
+        GlobalSettings.instance.qaManager.QuestionUpdate(isCorrect);
         image.color = isCorrect ? GlobalSettings.instance.correctColor : GlobalSettings.instance.incorrectColor;
     }
     

@@ -33,9 +33,11 @@ public class MatchButtonController : MonoBehaviour
     public void CheckCorrectness()
     {
         if (selectedPairButton == null) return;
-        SetColor(correctPairButton == selectedPairButton
+        bool isCorrect = correctPairButton == selectedPairButton;
+        SetColor(isCorrect
             ? GlobalSettings.instance.correctColor
             : GlobalSettings.instance.incorrectColor);
+        GlobalSettings.instance.qaManager.QuestionUpdate(isCorrect);
     }
 
     public void Select()

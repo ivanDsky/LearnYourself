@@ -14,13 +14,14 @@ namespace QASpace
         public List<QATag> tags = new List<QATag>{QATag.Default};
         public IGameModeType gameMode = new GameModeDefault();
         public string path;//TODO optional
-        
+        public float points;
 
-        public QA(IQuestionType question, IAnswerType answer, IGameModeType gameMode)
+        public QA(IQuestionType question, IAnswerType answer, IGameModeType gameMode,float points = 1)
         {
             this.question = question;
             this.answer = answer;
             this.gameMode = gameMode;
+            this.points = points;
         }
     }
 }

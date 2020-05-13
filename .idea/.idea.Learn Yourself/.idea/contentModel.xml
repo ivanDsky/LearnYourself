@@ -44,6 +44,8 @@
           <e p="ButtonController.cs" t="Include" />
           <e p="ButtonCreator.cs" t="Include" />
           <e p="Controller.cs" t="Include" />
+          <e p="EndButtonController.cs" t="Include" />
+          <e p="EndScreenController.cs" t="Include" />
           <e p="Extensions" t="Include">
             <e p="Extensions.cs" t="Include" />
             <e p="RandomExtensions.cs" t="Include" />
@@ -77,6 +79,8 @@
             <e p="QuestionType.cs" t="Include" />
             <e p="TextQuestion.cs" t="Include" />
           </e>
+          <e p="ScoreController.cs" t="Include" />
+          <e p="StatsManager.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">

@@ -26,9 +26,23 @@ public class ButtonController : MonoBehaviour
 
     public void CheckCorrectness()
     {
-        image.color = isCorrect ? GlobalSettings.instance.correctColor : GlobalSettings.instance.incorrectColor;
+        GlobalSettings.instance.qaManager.QuestionUpdate(isCorrect);
+        if (isCorrect) 
+            CorrectAction();
+        else
+            IncorrectAction();
     }
 
+    public void CorrectAction()
+    {
+        image.color = GlobalSettings.instance.correctColor;
+    }
+    
+    public void IncorrectAction()
+    {
+        image.color = GlobalSettings.instance.incorrectColor;
+    }
+    
     public void Reset()
     {
         image.color = saveColor;
