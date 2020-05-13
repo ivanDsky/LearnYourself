@@ -26,11 +26,13 @@ public class ButtonController : MonoBehaviour
 
     public void CheckCorrectness()
     {
+        transform.parent.GetComponent<BlockAllButtons>().Block();
         GlobalSettings.instance.qaManager.QuestionUpdate(isCorrect);
         if (isCorrect) 
             CorrectAction();
         else
             IncorrectAction();
+        
     }
 
     public void CorrectAction()

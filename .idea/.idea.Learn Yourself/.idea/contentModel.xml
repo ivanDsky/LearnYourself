@@ -41,6 +41,7 @@
             <e p="MatchAnswer.cs" t="Include" />
             <e p="SimpleAnswer.cs" t="Include" />
           </e>
+          <e p="BlockAllButtons.cs" t="Include" />
           <e p="ButtonController.cs" t="Include" />
           <e p="ButtonCreator.cs" t="Include" />
           <e p="Controller.cs" t="Include" />

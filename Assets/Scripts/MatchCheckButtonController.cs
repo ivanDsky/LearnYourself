@@ -30,5 +30,6 @@ public class MatchCheckButtonController : MonoBehaviour
       {
          button.GetComponent<MatchButtonController>().CheckCorrectness();
       }
+      answerController.Block();
    }
 }

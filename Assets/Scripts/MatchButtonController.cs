@@ -27,6 +27,7 @@ public class MatchButtonController : MonoBehaviour
 
     public void Reset()
     {
+        selectedPairButton = null;
         SetColor(saveColor);
     }
 

@@ -32,10 +32,12 @@ public class InputButtonController : MonoBehaviour
         var isCorrect = controller.correctText == field.text;
         GlobalSettings.instance.qaManager.QuestionUpdate(isCorrect);
         image.color = isCorrect ? GlobalSettings.instance.correctColor : GlobalSettings.instance.incorrectColor;
+        GetComponent<Button>().interactable = false;
     }
     
     public void Reset()
     {
+        GetComponent<Button>().interactable = true;
         image.color = saveColor;
     }
 }

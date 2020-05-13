@@ -14,6 +14,7 @@ public class ButtonCreator : MonoBehaviour
         {
             //Disable button if we don't need it now
             transform.GetChild(i).gameObject.SetActive(i < count);
+            transform.GetChild(i).gameObject.GetComponent<Button>().interactable = true;
         }
 
         //Instantiate buttons that we need
@@ -56,7 +57,7 @@ public class ButtonCreator : MonoBehaviour
             Timer timer = obj.GetComponent<Timer>();
             obj.GetComponent<Button>().onClick.AddListener(() =>
             {    
-                timer.SetTimer(GlobalSettings.instance.qaManager.Next,GlobalSettings.instance.nextQuestionDelay);//TODO block buttons when first clicked
+                timer.SetTimer(GlobalSettings.instance.qaManager.Next,GlobalSettings.instance.nextQuestionDelay);
             });
         }
     }

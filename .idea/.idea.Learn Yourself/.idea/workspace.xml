@@ -10,7 +10,21 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4892f90-1926-4b10-9639-6537059318dd" name="Default Changelist" comment="Added EndScreen and removed font" />
+    <list default="true" id="e4892f90-1926-4b10-9639-6537059318dd" name="Default Changelist" comment="Added EndScreen and removed font">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BlockAllButtons.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BlockAllButtons.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Button.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MatchButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MatchButton.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonCreator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputButtonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MatchAnswerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MatchAnswerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MatchButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MatchButtonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MatchCheckButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MatchCheckButtonController.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +64,7 @@
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///GameScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/c4/7a3ab46c/Void.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/d5/561a8330/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestionTypes/IQuestionType.cs" root0="FORCE_HIGHLIGHTING" />
@@ -67,6 +82,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameModeTypes/GameModeTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/GameScene.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2019.3.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/78/4403c61d/IList`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/MatchAnswer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -75,11 +91,12 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7C074160-DD1A-4D91-9B45-B6E4C27A3BAC/85/ca6b17dd/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchAnswerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonCreator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonCreator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchButtonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05F2AC9C-8847-4269-9276-5A22EF6D94CA/97/dda82da7/UnityEventBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BlockAllButtons.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndScreenController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndButtonController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -87,7 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswerText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerTextData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/IAnswerTextType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/Listener.cs" />
@@ -119,11 +135,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InputController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/TextQuestion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonCreator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/MatchAnswer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MatchCheckButtonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/Extensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MatchAnswerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/RandomExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QASpace/QA.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GlobalSettings.cs" />
@@ -135,9 +148,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SimpleButtonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ButtonControllerx.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BlockAllButtons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatchCheckButtonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonCreator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InputButtonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchButtonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatchAnswerController.cs" />
       </list>
     </option>
   </component>
@@ -191,7 +208,7 @@
       <updated>1589024460137</updated>
       <workItem from="1589024506227" duration="7853000" />
       <workItem from="1589095058259" duration="570000" />
-      <workItem from="1589290466269" duration="38482000" />
+      <workItem from="1589290466269" duration="39947000" />
     </task>
     <task id="LOCAL-00001" summary="Added QuestionController">
       <created>1589044386036</created>
@@ -270,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589368096895</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added EndScreen and removed font">
+      <created>1589373827553</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1589373827553</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,10 +382,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1600.860@0.0.1600.860" timestamp="1589301796165" />
-    <state x="392" y="149" key="Vcs.Push.Dialog.v2" timestamp="1589368100436">
+    <state x="92" y="92" width="1416" height="676" key="VCS.FileHistoryDialog" timestamp="1589374378562">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="149" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1589368100436" />
+    <state x="92" y="92" width="1416" height="676" key="VCS.FileHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1589374378562" />
+    <state x="392" y="149" key="Vcs.Push.Dialog.v2" timestamp="1589373834002">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="149" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1589373834002" />
     <state x="-91" y="103" width="1416" height="676" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1589092234018">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
