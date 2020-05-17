@@ -5,6 +5,7 @@ namespace QuestionTypes
 {
     public class ImageQuestion : IQuestionType
     {
+        public string name { get; set; }
         public QuestionType Type => QuestionType.Image;
         private Sprite Image { get; set; }
         
@@ -14,9 +15,10 @@ namespace QuestionTypes
             //TODO: save picture ratio on pasting
         }
 
-        public ImageQuestion(Sprite image)
+        public ImageQuestion(Sprite image,string name)
         {
             Image = image;
+            this.name = name;
         }
     }
 }

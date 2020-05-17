@@ -2,12 +2,11 @@ using System.Collections.Generic;
 using System.Linq;
 using AnswerTypes;
 using Extensions;
+using Folders;
 using GameModeTypes;
-using Sirenix.OdinInspector;
 using UnityEngine;
 using QASpace;
 using QuestionTypes;
-using UnityEditor;
 
 public class QAManager : MonoBehaviour
 {
@@ -21,32 +20,39 @@ public class QAManager : MonoBehaviour
 
     public void Adding()
     {
+        if (Folder.DefaultFolder.folders.Count + Folder.DefaultFolder.questions.Count > 0)
+        {
+            questions = Folder.DefaultFolder.GetSelectedQuestions();
+            return;
+        }
         questions.Add(
             new QA(
-                new TextQuestion("Кто может быть лучше разработчика этой игры?"),
+                new TextQuestion("Кто может быть лучше разработчика этой игры?","Про разраба"),
                 new SimpleAnswer(new List<AnswerData> {new AnswerData("Никто", true)}),
                 new GameModeDefault()
                 ));
         questions.Add(
             new QA(
-                new TextQuestion("Получит ли Ира 1000 подписчиков"),
+                new TextQuestion("Получит ли Ира 1000 подписчиков","Про Иру"),
                 new SimpleAnswer(new List<AnswerData>
                 {
                     new AnswerData("Конечно получит", true),
                     new AnswerData("Ха-ха, нет конечно", false),
                     new AnswerData("Если сильно постарается, то получит", true),
                 }),
-                new GameModeDefault()
+                new GameModeDefault(),
+                "Ira"
                 ));
         questions.Add(
             new QA(
-                new ImageQuestion(spriteImage), 
+                new ImageQuestion(spriteImage,"Про картинку"), 
                 new InputAnswer(new AnswerData("Это картинка",true)), 
-                new GameModeDefault()
+                new GameModeDefault(),
+                "Match/Picture"
                 ));
         questions.Add(
             new QA(
-                new TextQuestion("Тут надо будет соеденить вопрос с ответом"), 
+                new TextQuestion("Тут надо будет соеденить вопрос с ответом","Соеденения всякие"), 
                 new MatchAnswer(
                     new List<AnswerData>
                     {
@@ -62,7 +68,8 @@ public class QAManager : MonoBehaviour
                         new AnswerData("Третий ответ"),
                     }
                     ), 
-                new GameModeDefault()
+                new GameModeDefault(),
+                "Match"
             ));
     }
     
@@ -70,7 +77,6 @@ public class QAManager : MonoBehaviour
     {
         Adding();
         questions.Shuffle();
-        
         foreach (var question in questions)
         {
             question.answer.Data.Shuffle();

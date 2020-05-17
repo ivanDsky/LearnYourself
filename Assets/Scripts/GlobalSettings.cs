@@ -16,10 +16,6 @@ public class GlobalSettings : MonoBehaviour
     
     public GlobalSettings()
     {
-        if (instance != null)
-        {
-            throw new Exception("Can't be more then one instance");
-        }
         instance = this;
     }
 }

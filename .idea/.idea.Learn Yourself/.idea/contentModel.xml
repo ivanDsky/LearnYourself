@@ -45,12 +45,18 @@
           <e p="ButtonController.cs" t="Include" />
           <e p="ButtonCreator.cs" t="Include" />
           <e p="Controller.cs" t="Include" />
-          <e p="EndButtonController.cs" t="Include" />
           <e p="EndScreenController.cs" t="Include" />
           <e p="Extensions" t="Include">
+            <e p="ButtonFunctions.cs" t="Include" />
             <e p="Extensions.cs" t="Include" />
             <e p="RandomExtensions.cs" t="Include" />
             <e p="Timer.cs" t="Include" />
+          </e>
+          <e p="Folders" t="Include">
+            <e p="Folder.cs" t="Include" />
+            <e p="FolderButtonController.cs" t="Include" />
+            <e p="FolderController.cs" t="Include" />
+            <e p="QuestionButtonController.cs" t="Include" />
           </e>
           <e p="GameModeTypes" t="Include">
             <e p="GameModeDefault.cs" t="Include" />
@@ -66,6 +72,7 @@
           <e p="MatchButtonController.cs" t="Include" />
           <e p="MatchCheckButtonController.cs" t="Include" />
           <e p="MenuController.cs" t="Include" />
+          <e p="MenuSceneController.cs" t="Include" />
           <e p="QAManager.cs" t="Include" />
           <e p="QASpace" t="Include">
             <e p="QA.cs" t="Include" />
@@ -79,6 +86,12 @@
             <e p="IQuestionType.cs" t="Include" />
             <e p="QuestionType.cs" t="Include" />
             <e p="TextQuestion.cs" t="Include" />
+          </e>
+          <e p="RewriteScripts" t="Include">
+            <e p="MyButton.cs" t="Include" />
+          </e>
+          <e p="Save" t="Include">
+            <e p="SaveSystem.cs" t="Include" />
           </e>
           <e p="ScoreController.cs" t="Include" />
           <e p="StatsManager.cs" t="Include" />

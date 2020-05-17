@@ -7,6 +7,7 @@ namespace QuestionTypes
     [Serializable]
     public class AudioQuestion : IQuestionType
     {
+        public string name { get; set; }
         public QuestionType Type => QuestionType.Audio;
         public void InitContent(GameObject obj)
         {

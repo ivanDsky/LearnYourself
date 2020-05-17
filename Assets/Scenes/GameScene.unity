@@ -3559,7 +3559,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2004031524}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 230535026e884283b5b5214406fc6f8f, type: 3}
+  m_Script: {fileID: 11500000, guid: 75e75934ac244c63b2ac6deb2a619704, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &2004031527
@@ -3606,12 +3606,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2004031526}
-        m_MethodName: ExitGame
-        m_Mode: 1
+        m_MethodName: LoadScene
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
