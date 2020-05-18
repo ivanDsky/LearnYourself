@@ -4,15 +4,13 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InputButtonController : MonoBehaviour
+public class InputButtonController : FunctionalButton
 {
     public GameObject input;
     private InputController controller;
     private TMP_InputField field;
-    private Image image;
-    private Color saveColor;
 
-    private void Awake()
+    protected override void Awake()
     {
         controller = input.GetComponent<InputController>();
         field = input.GetComponentInChildren<TMP_InputField>();
@@ -31,13 +29,16 @@ public class InputButtonController : MonoBehaviour
     {
         var isCorrect = controller.correctText == field.text;
         GlobalSettings.instance.qaManager.QuestionUpdate(isCorrect);
-        image.color = isCorrect ? GlobalSettings.instance.correctColor : GlobalSettings.instance.incorrectColor;
+        if(isCorrect)
+            CorrectAction();
+        else
+            IncorrectAction();
         GetComponent<Button>().interactable = false;
     }
     
-    public void Reset()
+    public override void Reset()
     {
+        base.Reset();
         GetComponent<Button>().interactable = true;
-        image.color = saveColor;
     }
 }

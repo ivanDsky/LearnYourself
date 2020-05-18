@@ -16,7 +16,7 @@ public class MatchAnswerController : MonoBehaviour
         if (selected == null)
         {
             selected = obj;
-            obj.GetComponent<MatchButtonController>().Select();
+            obj.GetComponent<MatchButtonController>().OnSelect();
         }
         else
         {
@@ -24,7 +24,7 @@ public class MatchAnswerController : MonoBehaviour
             {
                 selected.GetComponent<MatchButtonController>().Reset();
                 selected = obj;
-                obj.GetComponent<MatchButtonController>().Select();
+                obj.GetComponent<MatchButtonController>().OnSelect();
             }
             else
             {
@@ -32,8 +32,8 @@ public class MatchAnswerController : MonoBehaviour
                 selected.GetComponent<MatchButtonController>().selectedPairButton = obj;
                 obj.GetComponent<MatchButtonController>().selectedPairButton = selected;
                 Color rndColor = RandomExtensions.RandomColor();
-                selected.GetComponent<MatchButtonController>().SetColor(rndColor);
-                obj.GetComponent<MatchButtonController>().SetColor(rndColor);
+                selected.GetComponent<MatchButtonController>().ChangeColor(rndColor);
+                obj.GetComponent<MatchButtonController>().ChangeColor(rndColor);
                 selected = null;
             }
         }

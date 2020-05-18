@@ -1,21 +1,15 @@
-using System;
 using AnswerTypes;
 using TMPro;
-using UnityEngine;
-using UnityEngine.UI;
 
-public class ButtonController : MonoBehaviour
+public class ButtonController : FunctionalButton
 {
     private TextMeshProUGUI text;
-    private Image image;
     private bool isCorrect;
-    private Color saveColor;
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         text = GetComponentInChildren<TextMeshProUGUI>();
-        image = GetComponent<Image>();
-        saveColor = image.color;
     }
     
     public void InitContent(AnswerData data)
@@ -33,20 +27,5 @@ public class ButtonController : MonoBehaviour
         else
             IncorrectAction();
         
-    }
-
-    public void CorrectAction()
-    {
-        image.color = GlobalSettings.instance.correctColor;
-    }
-    
-    public void IncorrectAction()
-    {
-        image.color = GlobalSettings.instance.incorrectColor;
-    }
-    
-    public void Reset()
-    {
-        image.color = saveColor;
     }
 }

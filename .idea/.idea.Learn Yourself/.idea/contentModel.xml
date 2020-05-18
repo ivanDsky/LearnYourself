@@ -58,6 +58,7 @@
             <e p="FolderController.cs" t="Include" />
             <e p="QuestionButtonController.cs" t="Include" />
           </e>
+          <e p="FunctionalButton.cs" t="Include" />
           <e p="GameModeTypes" t="Include">
             <e p="GameModeDefault.cs" t="Include" />
             <e p="GameModeSurvival.cs" t="Include" />

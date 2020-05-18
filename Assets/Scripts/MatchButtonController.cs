@@ -4,20 +4,16 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MatchButtonController : MonoBehaviour
+public class MatchButtonController : FunctionalButton
 {
     public GameObject correctPairButton;
     public GameObject selectedPairButton;
-    public Image image;
-    public Color saveColor;
     private TextMeshProUGUI text;
 
     
     public void Sync()
     {
         text = GetComponentInChildren<TextMeshProUGUI>();
-        image = GetComponent<Image>();
-        saveColor = image.color;
     }
 
     public void InitContent(AnswerData data)
@@ -25,29 +21,20 @@ public class MatchButtonController : MonoBehaviour
         text.text = data.data;
     }
 
-    public void Reset()
+    public override void Reset()
     {
+        base.Reset();
         selectedPairButton = null;
-        SetColor(saveColor);
     }
 
     public void CheckCorrectness()
     {
         if (selectedPairButton == null) return;
         bool isCorrect = correctPairButton == selectedPairButton;
-        SetColor(isCorrect
-            ? GlobalSettings.instance.correctColor
-            : GlobalSettings.instance.incorrectColor);
+        if(isCorrect)
+            CorrectAction();
+        else
+            IncorrectAction();
         GlobalSettings.instance.qaManager.QuestionUpdate(isCorrect);
-    }
-
-    public void Select()
-    {
-        SetColor(GlobalSettings.instance.selectedColor);
-    }
-
-    public void SetColor(Color color)
-    {
-        image.color = color;
     }
 }

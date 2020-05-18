@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using QASpace;
 using TMPro;
 using UnityEngine;
 
