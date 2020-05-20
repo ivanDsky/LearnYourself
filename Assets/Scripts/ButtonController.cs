@@ -14,8 +14,8 @@ public class ButtonController : FunctionalButton
     
     public void InitContent(AnswerData data)
     {
-        text.text = data.data;
-        isCorrect = data.isCorrect;
+        text.text = data.Data;
+        isCorrect = data.IsCorrect;
     }
 
     public void CheckCorrectness()

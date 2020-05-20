@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using AnswerTypes;
 using Extensions;
@@ -7,10 +8,14 @@ using GameModeTypes;
 using UnityEngine;
 using QASpace;
 using QuestionTypes;
+using Save;
+using Sirenix.OdinInspector;
+using Sirenix.Serialization;
 
-public class QAManager : MonoBehaviour
+public class QAManager : SerializedMonoBehaviour
 {
     public Sprite spriteImage;
+    [OdinSerialize]
     private List<QA> questions = new List<QA>();
     private QA current;
 
@@ -76,6 +81,8 @@ public class QAManager : MonoBehaviour
     public void Awake()
     {
         Adding();
+        SaveSystem.SaveToFile(@"D:\text.save",questions);
+        questions = SaveSystem.LoadFromFile<List<QA>>(@"D:\text.save");
         questions.Shuffle();
         foreach (var question in questions)
         {

@@ -2,14 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Extensions;
+using Sirenix.Serialization;
 using TMPro;
 using UnityEngine;
 
 namespace AnswerTypes
 {
-    [Serializable]
     public class SimpleAnswer : IAnswerType
     {
+        public AnswerType Type => AnswerType.Simple;
         public void InitContent(GameObject content)
         {
             content.GetComponent<ButtonCreator>().InitButtons(Data.Count);
@@ -20,13 +21,19 @@ namespace AnswerTypes
             }
         }
 
-        public List<AnswerData> Data { get; set; }
-        public AnswerType Type => AnswerType.Simple;
+        [OdinSerialize]
+        private List<AnswerData> data;
+
+        public List<AnswerData> Data
+        {
+            get => data;
+            set => data = value;
+        }
 
         public SimpleAnswer(List<AnswerData> data)
         {
             Data = data;
-            if (!data.Any(t => t.isCorrect))
+            if (!data.Any(t => t.IsCorrect))
             {
                 throw new Exception("List should consist correct answer");
             }

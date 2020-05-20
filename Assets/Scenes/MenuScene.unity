@@ -607,6 +607,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ae216695502449b83f93f244be9fc07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: questions
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[QASpace.QA, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
   spriteImage: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   questionController: {fileID: 0}
   answerController: {fileID: 0}
@@ -812,6 +833,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1598551970}
   - component: {fileID: 1598551969}
+  - component: {fileID: 1598551971}
   m_Layer: 0
   m_Name: GlobalSettings
   m_TagString: Untagged
@@ -851,6 +873,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1598551971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598551968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2325c4a54cb469d8dd5e672bac8a5ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  name: 
+  x: 0
 --- !u!1 &1617476186
 GameObject:
   m_ObjectHideFlags: 0
@@ -1377,8 +1422,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   folderPrefab: {fileID: 8838194683057184582, guid: 38dd106beacafcd49a44fb83d2781ad3,
     type: 3}
-  image: {fileID: 0}
-  saveColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1909795628
 GameObject:
   m_ObjectHideFlags: 0
@@ -1390,7 +1433,6 @@ GameObject:
   - component: {fileID: 1909795631}
   - component: {fileID: 1909795630}
   - component: {fileID: 1909795629}
-  - component: {fileID: 1909795632}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1446,22 +1488,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1909795632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1909795628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ae216695502449b83f93f244be9fc07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spriteImage: {fileID: 0}
-  questionController: {fileID: 0}
-  answerController: {fileID: 0}
-  endPanel: {fileID: 0}
 --- !u!1 &2089373690
 GameObject:
   m_ObjectHideFlags: 0

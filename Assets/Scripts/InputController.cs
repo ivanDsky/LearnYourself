@@ -12,6 +12,6 @@ public class InputController : MonoBehaviour
     public void InitContent(AnswerData data)
     {
         buttonController.Reset();
-        correctText = data.data;
+        correctText = data.Data;
     }
 }

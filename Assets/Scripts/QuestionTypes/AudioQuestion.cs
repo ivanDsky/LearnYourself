@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Sirenix.Serialization;
 using UnityEngine;
 
 namespace QuestionTypes
@@ -7,7 +8,14 @@ namespace QuestionTypes
     [Serializable]
     public class AudioQuestion : IQuestionType
     {
-        public string name { get; set; }
+        [OdinSerialize]
+        private string name;
+
+        public string Name
+        {
+            get => name;
+            set => name = value;
+        }
         public QuestionType Type => QuestionType.Audio;
         public void InitContent(GameObject obj)
         {

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Sirenix.Serialization;
 using UnityEngine;
 
 namespace AnswerTypes
@@ -10,12 +11,18 @@ namespace AnswerTypes
         {
             obj.GetComponent<InputController>().InitContent(Data[0]);
         }
+        [OdinSerialize]
+        private List<AnswerData> data;
 
-        public List<AnswerData> Data { get; set; }
+        public List<AnswerData> Data
+        {
+            get => data;
+            set => data = value;
+        }
 
         public InputAnswer(AnswerData data)
         {
-            data.isCorrect = true;
+            data.IsCorrect = true;
             Data = new List<AnswerData>{data};
         }
     }

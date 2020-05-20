@@ -18,7 +18,7 @@ public class MatchButtonController : FunctionalButton
 
     public void InitContent(AnswerData data)
     {
-        text.text = data.data;
+        text.text = data.Data;
     }
 
     public override void Reset()

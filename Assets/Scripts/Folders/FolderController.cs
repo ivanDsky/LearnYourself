@@ -31,7 +31,7 @@ namespace Folders
                 if(folder.isSelected)folder.questions[i].isSelected = true;
                 folderCreator.transform.GetChild(i + folder.folders.Count).GetComponent<QuestionButtonController>().question = folder.questions[i];
                 questionCreator.transform.GetChild(i + folder.folders.Count).GetComponentInChildren<TextMeshProUGUI>()
-                        .text = folder.questions[i].question.name;
+                        .text = folder.questions[i].question.Name;
             }
         }
     }

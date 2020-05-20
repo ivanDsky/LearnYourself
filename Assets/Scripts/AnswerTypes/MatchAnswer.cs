@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Sirenix.Serialization;
 using UnityEngine;
 
 namespace AnswerTypes
@@ -41,6 +42,7 @@ namespace AnswerTypes
         }
         
         public List<AnswerData> Data { get; set; }
+        [OdinSerialize]
         private List<AnswerData>[] data;
 
 

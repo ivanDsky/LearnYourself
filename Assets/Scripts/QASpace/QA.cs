@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using AnswerTypes;
 using GameModeTypes;
 using QuestionTypes;
+using Save;
+using Sirenix.Serialization;
+using UnityEngine;
 
 namespace QASpace
 {
-    [Serializable]
     public class QA
     {
         public IQuestionType question;
