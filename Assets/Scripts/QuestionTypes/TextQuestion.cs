@@ -36,5 +36,9 @@ namespace QuestionTypes
             Name = name;
             Text = text;
         }
+
+        public TextQuestion()
+        {
+        }
     }
 }

@@ -28,5 +28,9 @@ namespace AnswerTypes
             Data = data;
             IsCorrect = isCorrect;
         }
+
+        public AnswerData()
+        {
+        }
     }
 }

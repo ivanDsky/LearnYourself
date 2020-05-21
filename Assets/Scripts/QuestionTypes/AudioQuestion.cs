@@ -23,5 +23,9 @@ namespace QuestionTypes
         }
 
         public AudioClip Track { get; set; }
+
+        public AudioQuestion()
+        {
+        }
     }
 }

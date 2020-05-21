@@ -38,5 +38,9 @@ namespace AnswerTypes
                 throw new Exception("List should consist correct answer");
             }
         }
+
+        public SimpleAnswer()
+        {
+        }
     }
 }

@@ -1,10 +1,12 @@
 using System;
 using System.Collections.Generic;
+using System.Xml.Serialization;
 using Sirenix.Serialization;
 using UnityEngine;
 
 namespace AnswerTypes
 {
+    [Serializable]
     public class MatchAnswer : IAnswerType
     {
         public AnswerType Type => AnswerType.Match;
@@ -42,13 +44,16 @@ namespace AnswerTypes
         }
         
         public List<AnswerData> Data { get; set; }
-        [OdinSerialize]
-        private List<AnswerData>[] data;
+        public List<List<AnswerData>> data;
 
 
         public MatchAnswer(List<AnswerData> firstPart,List<AnswerData> secondPart)
         {
-            data = new[] {firstPart, secondPart};
+            data = new List<List<AnswerData>> {firstPart, secondPart};
+        }
+
+        public MatchAnswer()
+        {
         }
     }
 }

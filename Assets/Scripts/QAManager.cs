@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Xml.Serialization;
 using AnswerTypes;
 using Extensions;
 using Folders;
@@ -8,14 +9,12 @@ using GameModeTypes;
 using UnityEngine;
 using QASpace;
 using QuestionTypes;
-using Save;
 using Sirenix.OdinInspector;
 using Sirenix.Serialization;
 
 public class QAManager : SerializedMonoBehaviour
 {
     public Sprite spriteImage;
-    [OdinSerialize]
     private List<QA> questions = new List<QA>();
     private QA current;
 
@@ -30,59 +29,28 @@ public class QAManager : SerializedMonoBehaviour
             questions = Folder.DefaultFolder.GetSelectedQuestions();
             return;
         }
-        questions.Add(
-            new QA(
-                new TextQuestion("Кто может быть лучше разработчика этой игры?","Про разраба"),
-                new SimpleAnswer(new List<AnswerData> {new AnswerData("Никто", true)}),
-                new GameModeDefault()
-                ));
-        questions.Add(
-            new QA(
-                new TextQuestion("Получит ли Ира 1000 подписчиков","Про Иру"),
-                new SimpleAnswer(new List<AnswerData>
+        else
+        {
+            XmlSerializer xml = new XmlSerializer(questions.GetType());
+            using (FileStream f = new FileStream(@"D:\QA.xml",FileMode.Open))
+            {
+                questions = (List<QA>)xml.Deserialize(f);
+                foreach (var q in questions)
                 {
-                    new AnswerData("Конечно получит", true),
-                    new AnswerData("Ха-ха, нет конечно", false),
-                    new AnswerData("Если сильно постарается, то получит", true),
-                }),
-                new GameModeDefault(),
-                "Ira"
-                ));
-        questions.Add(
-            new QA(
-                new ImageQuestion(spriteImage,"Про картинку"), 
-                new InputAnswer(new AnswerData("Это картинка",true)), 
-                new GameModeDefault(),
-                "Match/Picture"
-                ));
-        questions.Add(
-            new QA(
-                new TextQuestion("Тут надо будет соеденить вопрос с ответом","Соеденения всякие"), 
-                new MatchAnswer(
-                    new List<AnswerData>
-                    {
-                        new AnswerData("Первый вопрос"),
-                        new AnswerData("Второй вопрос"),
-                        new AnswerData("Третий вопрос"),
-                        new AnswerData("А это вообще вопрос?"),
-                    }, 
-                    new List<AnswerData>
-                    {
-                        new AnswerData("Первый ответ"),
-                        new AnswerData("Второй ответ"),
-                        new AnswerData("Третий ответ"),
-                    }
-                    ), 
-                new GameModeDefault(),
-                "Match"
-            ));
+                    Folder.DefaultFolder.AddQuestion(q);
+                }
+            }
+        }
     }
     
+
     public void Awake()
     {
         Adding();
-        SaveSystem.SaveToFile(@"D:\text.save",questions);
-        questions = SaveSystem.LoadFromFile<List<QA>>(@"D:\text.save");
+
+        // SaveSystem.SaveToFile(@"D:\text.save",questions);
+        // questions = SaveSystem.LoadFromFile<List<QA>>(@"D:\text.save");
+        
         questions.Shuffle();
         foreach (var question in questions)
         {

@@ -1,4 +1,5 @@
 using System;
+using System.Xml.Serialization;
 using Sirenix.Serialization;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,7 +9,6 @@ namespace QuestionTypes
     [Serializable]
     public class ImageQuestion : IQuestionType
     {
-        [OdinSerialize]
         private string name;
 
         public string Name
@@ -18,7 +18,7 @@ namespace QuestionTypes
         }
         public QuestionType Type => QuestionType.Image;
         private Sprite image;
-
+        [XmlIgnore]
         public Sprite Image
         {
             get => image;
@@ -36,6 +36,10 @@ namespace QuestionTypes
         {
             Image = image;
             Name = name;
+        }
+
+        public ImageQuestion()
+        {
         }
     }
 }

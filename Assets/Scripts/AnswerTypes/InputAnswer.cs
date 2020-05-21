@@ -25,5 +25,9 @@ namespace AnswerTypes
             data.IsCorrect = true;
             Data = new List<AnswerData>{data};
         }
+
+        public InputAnswer()
+        {
+        }
     }
 }
