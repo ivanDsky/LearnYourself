@@ -34,6 +34,7 @@ public class InputButtonController : FunctionalButton
         else
             IncorrectAction();
         GetComponent<Button>().interactable = false;
+        field.interactable = false;
     }
     
     public override void Reset()

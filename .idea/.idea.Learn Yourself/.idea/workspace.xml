@@ -10,218 +10,512 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4892f90-1926-4b10-9639-6537059318dd" name="Default Changelist" comment="Rewrite save system and all that depends on that">
-      <change afterPath="$PROJECT_DIR$/Packages/LightInject.6.3.3/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/LightInject.6.3.3/LightInject.6.3.3.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/LightInject.6.3.3/lib/net452/LightInject.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/LightInject.6.3.3/lib/net452/LightInject.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/LightInject.6.3.3/lib/net46/LightInject.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/LightInject.6.3.3/lib/net46/LightInject.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/LightInject.6.3.3/lib/netcoreapp2.0/LightInject.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/LightInject.6.3.3/lib/netcoreapp2.0/LightInject.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/LightInject.6.3.3/lib/netstandard1.1/LightInject.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/LightInject.6.3.3/lib/netstandard1.1/LightInject.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/LightInject.6.3.3/lib/netstandard1.3/LightInject.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/LightInject.6.3.3/lib/netstandard1.3/LightInject.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/LightInject.6.3.3/lib/netstandard1.6/LightInject.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/LightInject.6.3.3/lib/netstandard1.6/LightInject.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/LightInject.6.3.3/lib/netstandard2.0/LightInject.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/LightInject.6.3.3/lib/netstandard2.0/LightInject.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/NReco.LambdaParser.1.0.11/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/NReco.LambdaParser.1.0.11/NReco.LambdaParser.1.0.11.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/NReco.LambdaParser.1.0.11/lib/net45/NReco.LambdaParser.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/NReco.LambdaParser.1.0.11/lib/net45/NReco.LambdaParser.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/NReco.LambdaParser.1.0.11/lib/netstandard1.3/NReco.LambdaParser.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/NReco.LambdaParser.1.0.11/lib/netstandard1.3/NReco.LambdaParser.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/NReco.LambdaParser.1.0.11/lib/netstandard2.0/NReco.LambdaParser.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/NReco.LambdaParser.1.0.11/lib/netstandard2.0/NReco.LambdaParser.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Sprache.2.3.1-develop-00033/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Sprache.2.3.1-develop-00033/Sprache.2.3.1-develop-00033.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Sprache.2.3.1-develop-00033/lib/net35/Sprache.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Sprache.2.3.1-develop-00033/lib/net35/Sprache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Sprache.2.3.1-develop-00033/lib/net40/Sprache.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Sprache.2.3.1-develop-00033/lib/net40/Sprache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Sprache.2.3.1-develop-00033/lib/net45/Sprache.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Sprache.2.3.1-develop-00033/lib/net45/Sprache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Sprache.2.3.1-develop-00033/lib/netstandard1.0/Sprache.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Sprache.2.3.1-develop-00033/lib/netstandard1.0/Sprache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Sprache.2.3.1-develop-00033/lib/netstandard2.0/Sprache.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Sprache.2.3.1-develop-00033/lib/netstandard2.0/Sprache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Sprache.2.3.1-develop-00033/lib/sl5/Sprache.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/Sprache.2.3.1-develop-00033/lib/sl5/Sprache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/LICENSE.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/System.Buffers.4.5.1.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/THIRD-PARTY-NOTICES.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/lib/net461/System.Buffers.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/lib/net461/System.Buffers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/lib/netcoreapp2.0/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/lib/netstandard1.1/System.Buffers.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/lib/netstandard1.1/System.Buffers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/lib/netstandard2.0/System.Buffers.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/lib/netstandard2.0/System.Buffers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/lib/uap10.0.16299/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/ref/net45/System.Buffers.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/ref/net45/System.Buffers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/ref/netcoreapp2.0/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/ref/netstandard1.1/System.Buffers.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/ref/netstandard1.1/System.Buffers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/ref/netstandard2.0/System.Buffers.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/ref/netstandard2.0/System.Buffers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/ref/uap10.0.16299/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/useSharedDesignerContext.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/version.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Collections.Immutable.5.0.0-preview.4.20251.6/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Collections.Immutable.5.0.0-preview.4.20251.6/Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Collections.Immutable.5.0.0-preview.4.20251.6/LICENSE.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Collections.Immutable.5.0.0-preview.4.20251.6/System.Collections.Immutable.5.0.0-preview.4.20251.6.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Collections.Immutable.5.0.0-preview.4.20251.6/THIRD-PARTY-NOTICES.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Collections.Immutable.5.0.0-preview.4.20251.6/lib/netstandard1.0/System.Collections.Immutable.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Collections.Immutable.5.0.0-preview.4.20251.6/lib/netstandard1.0/System.Collections.Immutable.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Collections.Immutable.5.0.0-preview.4.20251.6/lib/netstandard1.3/System.Collections.Immutable.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Collections.Immutable.5.0.0-preview.4.20251.6/lib/netstandard1.3/System.Collections.Immutable.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Collections.Immutable.5.0.0-preview.4.20251.6/lib/netstandard2.0/System.Collections.Immutable.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Collections.Immutable.5.0.0-preview.4.20251.6/lib/netstandard2.0/System.Collections.Immutable.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Collections.Immutable.5.0.0-preview.4.20251.6/lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Collections.Immutable.5.0.0-preview.4.20251.6/lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Collections.Immutable.5.0.0-preview.4.20251.6/useSharedDesignerContext.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Collections.Immutable.5.0.0-preview.4.20251.6/version.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Interactive.4.1.1/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Interactive.4.1.1/System.Interactive.4.1.1.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Interactive.4.1.1/lib/net45/System.Interactive.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Interactive.4.1.1/lib/net45/System.Interactive.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Interactive.4.1.1/lib/netstandard1.0/System.Interactive.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Interactive.4.1.1/lib/netstandard1.0/System.Interactive.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Interactive.4.1.1/lib/netstandard2.0/System.Interactive.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Interactive.4.1.1/lib/netstandard2.0/System.Interactive.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Interactive.4.1.1/ref/netcoreapp2.0/System.Interactive.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Interactive.4.1.1/ref/netcoreapp2.0/System.Interactive.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Interactive.4.1.1/ref/netstandard1.0/System.Interactive.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Interactive.4.1.1/ref/netstandard1.0/System.Interactive.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Interactive.4.1.1/ref/netstandard2.1/System.Interactive.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Interactive.4.1.1/ref/netstandard2.1/System.Interactive.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/LICENSE.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/System.Memory.4.5.4.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/THIRD-PARTY-NOTICES.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/lib/net461/System.Memory.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/lib/net461/System.Memory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/lib/netcoreapp2.1/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/lib/netstandard1.1/System.Memory.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/lib/netstandard1.1/System.Memory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/lib/netstandard2.0/System.Memory.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/lib/netstandard2.0/System.Memory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/ref/netcoreapp2.1/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/useSharedDesignerContext.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/version.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/LICENSE.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/System.Numerics.Vectors.4.5.0.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/THIRD-PARTY-NOTICES.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/MonoAndroid10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/MonoTouch10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/net46/System.Numerics.Vectors.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/net46/System.Numerics.Vectors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/netcoreapp2.0/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/netstandard1.0/System.Numerics.Vectors.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/netstandard1.0/System.Numerics.Vectors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/netstandard2.0/System.Numerics.Vectors.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/netstandard2.0/System.Numerics.Vectors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/uap10.0.16299/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/xamarinios10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/xamarinmac20/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/xamarintvos10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/xamarinwatchos10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/MonoAndroid10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/MonoTouch10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/net45/System.Numerics.Vectors.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/net45/System.Numerics.Vectors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/net46/System.Numerics.Vectors.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/net46/System.Numerics.Vectors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/netcoreapp2.0/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/netstandard1.0/System.Numerics.Vectors.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/netstandard1.0/System.Numerics.Vectors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/netstandard2.0/System.Numerics.Vectors.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/netstandard2.0/System.Numerics.Vectors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/uap10.0.16299/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/xamarinios10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/xamarinmac20/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/xamarintvos10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/xamarinwatchos10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/useSharedDesignerContext.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/version.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/LICENSE.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/THIRD-PARTY-NOTICES.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/lib/net45/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/lib/net45/System.Runtime.CompilerServices.Unsafe.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/useSharedDesignerContext.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.5.0.0-preview.4.20251.6/version.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/LICENSE.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/System.ValueTuple.4.5.0.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/THIRD-PARTY-NOTICES.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/MonoAndroid10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/MonoTouch10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/net461/System.ValueTuple.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/net461/System.ValueTuple.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/net47/System.ValueTuple.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/net47/System.ValueTuple.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/netcoreapp2.0/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/netstandard1.0/System.ValueTuple.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/netstandard1.0/System.ValueTuple.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/netstandard2.0/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/uap10.0.16299/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/xamarinios10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/xamarinmac20/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/xamarintvos10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/xamarinwatchos10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/MonoAndroid10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/MonoTouch10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/net461/System.ValueTuple.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/net47/System.ValueTuple.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/netcoreapp2.0/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/netstandard2.0/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/uap10.0.16299/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/xamarinios10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/xamarinmac20/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/xamarintvos10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/xamarinwatchos10/_._" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/useSharedDesignerContext.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/version.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages.config" afterDir="false" />
+    <list default="true" id="e4892f90-1926-4b10-9639-6537059318dd" name="Default Changelist" comment="Added XML serialization and some code rebuilding was done">
+      <change afterPath="$PROJECT_DIR$/Assets/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Jump.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Jump.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Logo.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Logo.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween.XML.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/DOTween.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/DOTweenEditor.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/DOTweenEditor.XML.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Footer.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Footer_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Footer_dark.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Editor/Imgs/Header.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/readme.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro Examples.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro Examples/DOTweenAnimation_Advanced.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro Examples/DOTweenAnimation_Advanced.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro Examples/DOTweenAnimation_Basics.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro Examples/DOTweenAnimation_Basics.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro Examples/DOTweenPath.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro Examples/DOTweenPath.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro Examples/Examples Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenAnimation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenAnimation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenPro.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenPro.XML.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenPro.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenPro.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenProShortcuts.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenProShortcuts.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs.addon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs.addon.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenTk2d.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenTk2d.cs.addon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenTk2d.cs.addon.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/DOTweenTk2d.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenPreviewManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenPreviewManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenProEditor.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenProEditor.XML.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTweenPro/readme.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/DemiLib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/DemiLib.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/DemiLib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/DemiLib.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/DemiEditor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/DemiEditor.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/DemiEditor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/DemiEditor.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquare.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha10.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha15.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha25.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha50.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha80.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blueSquare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/blueSquare.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/circle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/greenSquare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/greenSquare.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/grid_bright.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/grid_bright.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/grid_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/grid_dark.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alert.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignB.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBC.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBL.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBR.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCC.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCL.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCR.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignHC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignHC.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignL.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignR.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignT.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTC.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTL.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTR.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignVC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignVC.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera_border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera_border.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog_border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog_border.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment_border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment_border.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_delete.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_demigiant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_demigiant.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeHAlignT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeHAlignT.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeVAlignL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeVAlignL.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_end.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_end.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_flipV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_flipV.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_closed.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_open.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart_border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart_border.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_light.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_light_border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_light_border.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock_open.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_nodeArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_nodeArrow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_ok.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_optionsDropdown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_optionsDropdown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_play.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_play_border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_play_border.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull_border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull_border.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_star.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_star_border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_star_border.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui_border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui_border.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility_off.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/orangeSquare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/orangeSquare.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_atlas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_atlas.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_audio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_audio.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_bundle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_bundle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cog.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cross.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_demigiant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_demigiant.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_folder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_folder.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_fonts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_fonts.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_heart.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_materials.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_materials.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_models.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_models.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_particles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_particles.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_play.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_prefab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_prefab.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_scripts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_scripts.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_shaders.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_shaders.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_skull.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_skull.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_star.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_terrains.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_terrains.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_textures.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_textures.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/purpleSquare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/purpleSquare.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/redSquare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/redSquare.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorder.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderAlpha15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderAlpha15.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02_darkBorders.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02_darkBorders.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedAlpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedAlpha.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmptyThick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmptyThick.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBorders.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBorders.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBordersAlpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBordersAlpha.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty03.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickEmpty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickEmpty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickerEmpty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickerEmpty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareCorners03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareCorners03.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareCornersEmpty02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/squareCornersEmpty02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_empty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted_alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted_alpha.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/transparentSquare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/transparentSquare.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_darkBorder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_darkBorder.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_whiteBorderAlpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_whiteBorderAlpha.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha10.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha15.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha25.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha50.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha80.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare_fadeOut_bt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare_fadeOut_bt.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/yellowSquare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/DemiLib/Core/Editor/Imgs/yellowSquare.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/readme_DOTweenPro.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Demigiant/readme_DOTweenPro.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Folder.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Folder.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FolderMenu.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FolderMenu.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Play.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Play.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Question.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Question.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LoadXML.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LoadXML.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SizeFitter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SizeFitter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/339px-Bulb_and_Key_Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/339px-Bulb_and_Key_Logo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-ps.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-ps/Blogger Sans SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-ps/Blogger Sans SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-ps/Blogger Sans-Bold Italic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-ps/Blogger Sans-Bold Italic.otf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-ps/Blogger Sans-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-ps/Blogger Sans-Bold.otf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-ps/Blogger Sans-Italic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-ps/Blogger Sans-Italic.otf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-ps/Blogger Sans-Light Italic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-ps/Blogger Sans-Light Italic.otf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-ps/Blogger Sans-Light.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-ps/Blogger Sans-Light.otf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-ps/Blogger Sans-Medium Italic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-ps/Blogger Sans-Medium Italic.otf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-ps/Blogger Sans-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-ps/Blogger Sans-Medium.otf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-ps/Blogger Sans.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-ps/Blogger Sans.otf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-tt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-tt/Blogger Sans-Bold Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-tt/Blogger Sans-Bold Italic.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-tt/Blogger Sans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-tt/Blogger Sans-Bold.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-tt/Blogger Sans-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-tt/Blogger Sans-Italic.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-tt/Blogger Sans-Light Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-tt/Blogger Sans-Light Italic.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-tt/Blogger Sans-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-tt/Blogger Sans-Light.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-tt/Blogger Sans-Medium Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-tt/Blogger Sans-Medium Italic.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-tt/Blogger Sans-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-tt/Blogger Sans-Medium.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-tt/Blogger Sans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/OT-tt/Blogger Sans.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-Light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-Light.css.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-Light.eot.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-Light.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-Light.html.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-Light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-Light.svg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-Light.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-Light.woff.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-LightItalic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-LightItalic.css.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-LightItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-LightItalic.eot.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-LightItalic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-LightItalic.html.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-LightItalic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-LightItalic.svg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-LightItalic.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-LightItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Light/BloggerSans-LightItalic.woff.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-Medium.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-Medium.css.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-Medium.eot.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-Medium.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-Medium.html.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-Medium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-Medium.svg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-Medium.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-Medium.woff.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-MediumItalic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-MediumItalic.css.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-MediumItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-MediumItalic.eot.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-MediumItalic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-MediumItalic.html.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-MediumItalic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-MediumItalic.svg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-MediumItalic.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-MediumItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans Medium/BloggerSans-MediumItalic.woff.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Bold.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Bold.css.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Bold.eot.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Bold.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Bold.html.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Bold.svg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Bold.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Bold.woff.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-BoldItalic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-BoldItalic.css.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-BoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-BoldItalic.eot.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-BoldItalic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-BoldItalic.html.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-BoldItalic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-BoldItalic.svg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-BoldItalic.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-BoldItalic.woff.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Italic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Italic.css.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Italic.eot.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Italic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Italic.html.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Italic.svg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Italic.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans-Italic.woff.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans.css.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans.eot.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans.html.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans.svg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/Web/Blogger Sans/BloggerSans.woff.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/blogger-sans-ot-guide.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Blogger Sans/blogger-sans-ot-guide.pdf.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learn Yourself/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Button.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Button.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Button.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FolderButton.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FolderButton.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MatchButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MatchButton.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MatchButton.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MatchButton.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/QuestionButton.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/QuestionButton.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SelectFolder.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SelectFolder.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/MatchAnswer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/MatchAnswer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Extensions/Extensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Extensions/Extensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Folders/FolderController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Folders/FolderController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputButtonController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/QAManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QAManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QASpace/QA.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QASpace/QA.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QASpace/QATag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QASpace/QATag.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/AudioQuestion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/AudioQuestion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/ImageQuestion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/ImageQuestion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/TextQuestion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/TextQuestion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,15 +533,18 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2019.3.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/ButtonEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadXML.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2019.3.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Selectable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2019.3.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RewriteScripts/MyButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Folders/QuestionButtonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Folders/FolderController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Folders/FolderButtonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Folders/Folder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Save/SaveSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Asteroid/Asteroid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5890BAE5-B194-4292-A914-4C575F50AEFA/da/e6ac2c86/InspectorProperty.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestionTypes/TextQuestion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestionTypes/QuestionType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestionTypes/IQuestionType.cs" root0="FORCE_HIGHLIGHTING" />
@@ -272,7 +569,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D966F060-1D26-456D-9165-2D8D979D3635/4e/654cb121/JsonDataWriter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameModeTypes/IGameModeType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameModeTypes/GameModeType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D966F060-1D26-456D-9165-2D8D979D3635/4c/caa76a9e/SerializationUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameModeTypes/GameModeTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameModeTypes/GameModeSurvival.cs" root0="FORCE_HIGHLIGHTING" />
@@ -288,22 +584,23 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1D98D70B-B7D8-453B-80C2-5AA561FDECD1/2b/83d752c8/XmlSerializer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputButtonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QAManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchButtonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5890BAE5-B194-4292-A914-4C575F50AEFA/70/fc15ce2f/DefaultMethodDrawer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/AnswerData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SizeFitter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/MatchAnswer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StatsManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestionController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Ship/Ship.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1D98D70B-B7D8-453B-80C2-5AA561FDECD1/55/26196334/TempAssembly.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FunctionalButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D966F060-1D26-456D-9165-2D8D979D3635/ae/ecddbf9f/UnitySerializationUtility.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchAnswerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/SpaceShip/Materials/1K_Body-TXTR.mat.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchCheckButtonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/SimpleAnswer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GlobalSettings.cs" root0="FORCE_HIGHLIGHTING" />
@@ -312,18 +609,16 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/InputAnswer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnswerTypes/IAnswerType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonCreator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Misc/AudioHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2019.3.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7BE1A95B-44F5-474C-9C1A-5C5FD9C86B28/53/c6596722/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Scripts/Misc/GuiHandler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/SimpleButtonController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonControllerx.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MatchCheckButtonController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonCreator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Save.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuSceneController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ButtonFunctions.cs" />
@@ -336,12 +631,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/ButtonFunctions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RewriteScripts/MyButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Folders/Folder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Folders/FolderController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Folders/FolderButtonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Folders/QuestionButtonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchAnswerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FunctionalButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InputButtonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Save/ISaveable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuestionTypes/IQuestionType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Save/QASavaType.cs" />
@@ -370,7 +662,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/Extensions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QASpace/QA.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnswerTypes/MatchAnswer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SizeFitter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Folders/FolderButtonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Load XML.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LoadXML.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Folders/FolderController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QAManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScoreController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InputButtonController.cs" />
       </list>
     </option>
   </component>
@@ -398,7 +697,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="Push.Settings">
     <force-push-targets>
@@ -406,10 +705,10 @@
     </force-push-targets>
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="16304">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="4544">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="16304" />
+      <option name="pid" value="4544" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -444,7 +743,9 @@
       <workItem from="1589967247665" duration="5571000" />
       <workItem from="1589978103514" duration="536000" />
       <workItem from="1589978734794" duration="586000" />
-      <workItem from="1590048023190" duration="8387000" />
+      <workItem from="1590048023190" duration="8858000" />
+      <workItem from="1590166068321" duration="10285000" />
+      <workItem from="1590250151941" duration="7995000" />
     </task>
     <task id="LOCAL-00001" summary="Added QuestionController">
       <created>1589044386036</created>
@@ -551,7 +852,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589784657083</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added XML serialization and some code rebuilding was done">
+      <created>1590056997991</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1590056997991</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +895,8 @@
     <MESSAGE value="Blocked buttons and fixed selection" />
     <MESSAGE value="Improved Folder system and selectable" />
     <MESSAGE value="Added base FunctionalButton and inheritance of it" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added base FunctionalButton and inheritance of it" />
+    <MESSAGE value="Added XML serialization and some code rebuilding was done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added XML serialization and some code rebuilding was done" />
   </component>
   <component name="WindowStateProjectService">
     <state width="424" height="464" key="DebuggerActiveHint" timestamp="1589799477868">
@@ -602,70 +911,70 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="494" y="329" key="GitRewordDialog/0.0.1600.860@0.0.1600.860" timestamp="1589352421546" />
-    <state width="1557" height="303" key="GridCell.Tab.0.bottom" timestamp="1590053139210">
+    <state width="1557" height="303" key="GridCell.Tab.0.bottom" timestamp="1590258925087">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590053139210" />
-    <state width="1557" height="303" key="GridCell.Tab.0.center" timestamp="1590053139209">
+    <state width="1557" height="303" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590258925087" />
+    <state width="1557" height="303" key="GridCell.Tab.0.center" timestamp="1590258925087">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590053139209" />
-    <state width="1557" height="303" key="GridCell.Tab.0.left" timestamp="1590053139209">
+    <state width="1557" height="303" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590258925087" />
+    <state width="1557" height="303" key="GridCell.Tab.0.left" timestamp="1590258925086">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590053139209" />
-    <state width="1557" height="303" key="GridCell.Tab.0.right" timestamp="1590053139210">
+    <state width="1557" height="303" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590258925086" />
+    <state width="1557" height="303" key="GridCell.Tab.0.right" timestamp="1590258925087">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590053139210" />
-    <state width="1557" height="303" key="GridCell.Tab.1.bottom" timestamp="1590053139210">
+    <state width="1557" height="303" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590258925087" />
+    <state width="1557" height="303" key="GridCell.Tab.1.bottom" timestamp="1590258925088">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590053139210" />
-    <state width="1557" height="303" key="GridCell.Tab.1.center" timestamp="1590053139210">
+    <state width="1557" height="303" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590258925088" />
+    <state width="1557" height="303" key="GridCell.Tab.1.center" timestamp="1590258925087">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1590053139210" />
-    <state width="1557" height="303" key="GridCell.Tab.1.left" timestamp="1590053139210">
+    <state width="1557" height="303" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1590258925087" />
+    <state width="1557" height="303" key="GridCell.Tab.1.left" timestamp="1590258925087">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1590053139210" />
-    <state width="1557" height="303" key="GridCell.Tab.1.right" timestamp="1590053139210">
+    <state width="1557" height="303" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1590258925087" />
+    <state width="1557" height="303" key="GridCell.Tab.1.right" timestamp="1590258925088">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1590053139210" />
-    <state width="1557" height="303" key="GridCell.Tab.2.bottom" timestamp="1590053139210">
+    <state width="1557" height="303" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1590258925088" />
+    <state width="1557" height="303" key="GridCell.Tab.2.bottom" timestamp="1590258925088">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590053139210" />
-    <state width="1557" height="303" key="GridCell.Tab.2.center" timestamp="1590053139210">
+    <state width="1557" height="303" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590258925088" />
+    <state width="1557" height="303" key="GridCell.Tab.2.center" timestamp="1590258925088">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1590053139210" />
-    <state width="1557" height="303" key="GridCell.Tab.2.left" timestamp="1590053139210">
+    <state width="1557" height="303" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1590258925088" />
+    <state width="1557" height="303" key="GridCell.Tab.2.left" timestamp="1590258925088">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1590053139210" />
-    <state width="1557" height="303" key="GridCell.Tab.2.right" timestamp="1590053139210">
+    <state width="1557" height="303" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1590258925088" />
+    <state width="1557" height="303" key="GridCell.Tab.2.right" timestamp="1590258925088">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1590053139210" />
-    <state width="1557" height="303" key="GridCell.Tab.3.bottom" timestamp="1590053139211">
+    <state width="1557" height="303" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1590258925088" />
+    <state width="1557" height="303" key="GridCell.Tab.3.bottom" timestamp="1590258925089">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.3.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590053139211" />
-    <state width="1557" height="303" key="GridCell.Tab.3.center" timestamp="1590053139211">
+    <state width="1557" height="303" key="GridCell.Tab.3.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590258925089" />
+    <state width="1557" height="303" key="GridCell.Tab.3.center" timestamp="1590258925089">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.3.center/0.0.1600.860@0.0.1600.860" timestamp="1590053139211" />
-    <state width="1557" height="303" key="GridCell.Tab.3.left" timestamp="1590053139210">
+    <state width="1557" height="303" key="GridCell.Tab.3.center/0.0.1600.860@0.0.1600.860" timestamp="1590258925089" />
+    <state width="1557" height="303" key="GridCell.Tab.3.left" timestamp="1590258925088">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.3.left/0.0.1600.860@0.0.1600.860" timestamp="1590053139210" />
-    <state width="1557" height="303" key="GridCell.Tab.3.right" timestamp="1590053139211">
+    <state width="1557" height="303" key="GridCell.Tab.3.left/0.0.1600.860@0.0.1600.860" timestamp="1590258925088" />
+    <state width="1557" height="303" key="GridCell.Tab.3.right" timestamp="1590258925089">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="303" key="GridCell.Tab.3.right/0.0.1600.860@0.0.1600.860" timestamp="1590053139211" />
+    <state width="1557" height="303" key="GridCell.Tab.3.right/0.0.1600.860@0.0.1600.860" timestamp="1590258925089" />
     <state x="392" y="161" key="Rider.ProjectTemplateDialog.Size" timestamp="1589870059485">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -674,10 +983,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="573" y="115" key="RiderGenerateDialog/0.0.1600.860@0.0.1600.860" timestamp="1590054584172" />
-    <state x="301" y="74" key="SettingsEditor" timestamp="1590048475202">
+    <state x="301" y="74" key="SettingsEditor" timestamp="1590209712511">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1590048475202" />
+    <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1590209712511" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1589301796165">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -686,10 +995,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="92" y="92" width="1416" height="676" key="VCS.FileHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1589374378562" />
-    <state x="392" y="149" key="Vcs.Push.Dialog.v2" timestamp="1589784658418">
+    <state x="392" y="149" key="Vcs.Push.Dialog.v2" timestamp="1590057001111">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="149" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1589784658418" />
+    <state x="392" y="149" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1590057001111" />
     <state width="808" height="438" key="XDebugger.FullValuePopup" timestamp="1589392213458">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -727,23 +1036,24 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/QASpace/QA.cs</url>
-          <line>48</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/QASpace/QA.cs" initialLine="46">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/QAManager.cs</url>
+          <line>31</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/QAManager.cs" initialLine="31">
             <startOffsets>
-              <option value="1198" />
+              <option value="779" />
             </startOffsets>
             <endOffsets>
-              <option value="1228" />
+              <option value="846" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
-        <watch expression="reader.Name" language="C#" />
+        <watch expression="text" language="C#" />
+        <watch expression="GetComponentInChildren&lt;TextMeshProUGUI&gt;()" language="C#" />
       </configuration>
     </watches-manager>
   </component>

@@ -1,3 +1,4 @@
+using Doozy.Engine.UI;
 using TMPro;
 using UnityEngine;
 
@@ -8,31 +9,23 @@ namespace Folders
         public Folder folder = Folder.DefaultFolder;
         public ButtonCreator folderCreator;
         public ButtonCreator questionCreator;
-        public void Awake()
-        {
-            ButtonCreator[] x = GetComponentsInChildren<ButtonCreator>();
-            folderCreator = x[0];
-            questionCreator = x[1];
-        }
 
         public void InitContent()
         {
             folderCreator.InitButtons(folder.folders.Count);
-            questionCreator.InitButtons(folder.folders.Count + folder.questions.Count);
+            questionCreator.InitButtons(folder.questions.Count);
             for (int i = 0; i < folder.folders.Count; ++i)
             {
-                if(folder.isSelected)folder.folders[i].isSelected = true;
-                folderCreator.transform.GetChild(i).GetComponentInChildren<TextMeshProUGUI>().text =
-                    folder.folders[i].folderName;
-                folderCreator.transform.GetChild(i).GetComponent<FolderButtonController>().folder = folder.folders[i];
+                transform.GetChild(0).GetChild(0).GetChild(i).GetComponent<FolderButtonController>().folder = folder.folders[i];
+                transform.GetChild(0).GetChild(0).GetChild(i).GetComponentInChildren<TextMeshProUGUI>().text = folder.folders[i].folderName;
             }
             for (int i = 0; i < folder.questions.Count; ++i)
             {
-                if(folder.isSelected)folder.questions[i].isSelected = true;
-                folderCreator.transform.GetChild(i + folder.folders.Count).GetComponent<QuestionButtonController>().question = folder.questions[i];
-                questionCreator.transform.GetChild(i + folder.folders.Count).GetComponentInChildren<TextMeshProUGUI>()
-                        .text = folder.questions[i].question.Name;
+                transform.GetChild(0).GetChild(1).GetChild(i).GetComponent<QuestionButtonController>().parent = folder;
+                transform.GetChild(0).GetChild(1).GetChild(i).GetComponent<QuestionButtonController>().question = folder.questions[i];
+                transform.GetChild(0).GetChild(1).GetChild(i).GetComponentInChildren<TextMeshProUGUI>().text = folder.questions[i].question.Name;
             }
+            transform.GetChild(0).GetComponent<SizeFitter>().Resize();
         }
     }
 }
